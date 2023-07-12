@@ -839,19 +839,19 @@ table.button.google table td {
 
 @media screen and (max-width: 789px) {
   .mot-header__logo {
-    text-align: center;
-    display: block;
+    text-align: center !important;
+    display: block !important;
   }
   .mot-header__logo img {
-    display: inline-block;
+    display: inline-block !important;
     width: 125px !important;
     height: 55px !important;
   }
 }
 @media screen and (max-width: 789px) {
   .mot-header .button {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 }
 .mot-header__number {
@@ -874,8 +874,8 @@ table.button.google table td {
 }
 @media screen and (max-width: 789px) {
   .mot-header__separator {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 }
 .mot-header__paragraph {
@@ -904,12 +904,12 @@ table.button.google table td {
 }
 @media screen and (max-width: 789px) {
   .mot-header__main-text {
-    text-align: center;
+    text-align: center !important;
   }
   .mot-header__main-text h2,
   .mot-header__main-text h3,
   .mot-header__main-text p {
-    text-align: center;
+    text-align: center !important;
   }
 }
 

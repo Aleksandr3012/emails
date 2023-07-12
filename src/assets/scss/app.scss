@@ -1,0 +1,149 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+
+//MOT
+.mot-header {
+	&__logo {
+		@media screen and (max-width: 789px) {
+			text-align: center;
+			display: block;
+			img {
+				display: inline-block;
+				width: 125px !important;
+				height: 55px !important;
+			}
+		}
+	}
+	.button {
+			@media screen and (max-width: 789px) {
+				margin-left: auto;
+				margin-right: auto;
+			}
+	}
+	&__number {
+		background-color: $warning-color;
+		border-left: solid #7E8293 16px;
+		border-radius: 9px;
+		font-size: 32px;
+		line-height: 39px;
+		padding: 0 5px;
+		font-weight: bold;
+		font-family: $secondary-font;
+		display: inline-block;
+		margin-left: 10px;
+	}
+
+	&__separator {
+		height: 1px;
+		width: 320px;
+		background-color: #7E8293;
+		margin: 17px 0;
+		@media screen and (max-width: 789px) {
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+
+	&__paragraph {
+		padding-top: 15px;
+		padding-bottom: 5px;
+	}
+
+	&__img {
+		display: inline-block;
+		max-width: 350px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	&__check-col {
+		padding-bottom: 25px !important;
+	}
+
+	&__check-icon {
+		width: 44px !important;
+		height: 44px !important;
+		object-fit: contain;
+		display: inline-block;
+	}
+
+	&__check-text {
+		margin: 0;
+		padding-right: 10px;
+		font-size: 14px;
+	}
+	&__main-text {
+		@media screen and (max-width: 789px) {
+			text-align: center;
+			h1,
+			h2,
+			h3,
+			p {
+				text-align: center;
+			}
+		}
+	}
+}
+
+
+.upgrade-paragraph {
+	max-width: 410px;
+	margin: 20px auto;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.white-logo {
+	text-align: center;
+	display: inline-block;
+	img {
+		display: inline-block;
+		@media screen and (max-width: 789px) {
+			width: 98px !important;
+			height: 43px !important;
+		}
+	}
+}
+
+.info-text {
+	font-size: 12px;
+	line-height: 22px;
+}
+
+// Partner
+.partner {
+	&__separator {
+		background-color: #DBDBDB;
+		max-width: 749px;
+		margin-left: auto;
+		margin-right: auto;
+		height: 1px;
+	}
+
+	&__btn {
+		a {
+			font-weight: 600 !important;
+		}
+	}
+
+	&__check-text {
+		font-size: 14px;
+
+		strong {
+			font-size: 16px;
+			display: block;
+			padding-bottom: 7px;
+		}
+	}
+
+	&__small-section {
+		border-bottom: 1px solid #DBDBDB;
+
+		.container {
+				width: 659px;
+		}
+	}
+}

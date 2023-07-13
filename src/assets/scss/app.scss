@@ -42,16 +42,39 @@
 		height: 1px;
 		width: 320px;
 		background-color: #7E8293;
-		margin: 17px 0;
+		margin-top: 17px;
+		margin-bottom: 17px;
 		@media only screen and (max-width: 789px) {
 			margin-left: auto !important;
 			margin-right: auto !important;
 		}
 	}
 
-	&__paragraph {
-		padding-top: 15px;
+	&__title {
 		padding-bottom: 5px;
+		padding-top: 60px;
+		@media only screen and (max-width: 789px) {
+			padding-top: 40px !important;
+			padding-bottom: 24px !important;
+		}
+	}
+
+	&__subtitle {
+		margin-bottom: 12px;
+	}
+
+	&__paragraph {
+		margin-bottom: 10px;
+
+		&-bottom {
+			font-weight: 600;
+			@media only screen and (max-width: 789px) {
+				font-size: 13px !important;
+				max-width: 324px !important;
+				margin-left: auto !important;
+				margin-right: auto !important;
+			}
+		}
 	}
 
 	&__img {
@@ -59,6 +82,9 @@
 		max-width: 350px;
 		margin-left: auto;
 		margin-right: auto;
+		@media only screen and (max-width: 789px)  {
+			max-width: 200px !important;
+		}
 	}
 
 	&__check-col {
@@ -72,11 +98,41 @@
 		display: inline-block;
 	}
 
+	.button {
+		@media only screen and (max-width: 789px) {
+			display: block !important;
+			width: 100% !important;
+			text-align: center !important;
+			* {
+				display: block !important;
+				text-align: center !important;
+			}
+		}
+	}
+
+	&__check-row {
+		@media only screen and (max-width: 789px) {
+			max-width: 325px !important;
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}
+	}
+
 	&__check-text {
 		margin-bottom: 0;
 		margin-top: 0;
 		padding-right: 10px;
 		font-size: 14px;
+
+		@media only screen and (max-width: 789px) {
+			font-size: 16px !important;
+		}
+
+		&--middle {
+			@media only screen and (min-width: 790px) {
+				max-width: 146px;
+			}
+		}
 	}
 
 	&__main-text {
@@ -92,12 +148,42 @@
 	}
 }
 
+.colored-section-mot {
+	padding-top: 72px;
+	padding-bottom: 60px;
+	@media only screen and (max-width: 789px) {
+		padding-top: 46px !important;
+		padding-bottom: 53px !important;
+	}
 
-.upgrade-paragraph {
-	max-width: 410px;
-	margin: 20px auto;
-	font-size: 14px;
-	line-height: 18px;
+	&__upgrade {
+		max-width: 410px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.button a{
+		padding-top: 11px;
+		padding-bottom: 11px;
+	}
+}
+
+.above-footer {
+	padding-top: 39px;
+	padding-bottom: 39px;
+	@media only screen and (max-width: 789px) {
+		padding-top: 25px !important;
+		padding-bottom: 20px !important;
+	}
+	p {
+		a {
+			color: #1E49FF;
+		}
+	}
 }
 
 .white-logo {
@@ -120,17 +206,47 @@
 
 // Partner
 .partner {
+
+	&__paragraph {
+		margin-top: 20px;
+		margin-bottom: 28px;
+		@media only screen and (max-width: 789px) {
+			margin-bottom: 36px !important;
+		}
+	}
+
 	&__separator {
 		background-color: #DBDBDB;
 		max-width: 749px;
 		margin-left: auto;
 		margin-right: auto;
 		height: 1px;
+		margin-top: 46px;
+		@media only screen and (max-width: 789px) {
+			margin-top: 29px !important;
+		}
+	}
+
+	&__cars {
+		@media only screen and (max-width: 789px) {
+			width: 75% !important;
+		}
 	}
 
 	&__btn {
+		@media only screen and (max-width: 789px) {
+			display: block !important;
+			width: 100% !important;
+			text-align: center !important;
+			margin-top: 26px !important;
+			* {
+				display: block !important;
+				text-align: center !important;
+			}
+		}
 		a {
 			font-weight: 600 !important;
+			padding: 9px 27px;
 		}
 	}
 
@@ -146,9 +262,56 @@
 
 	&__small-section {
 		border-bottom: 1px solid #DBDBDB;
+		padding-top: 48px;
+		padding-bottom: 30px;
+		@media only screen and (max-width: 789px) {
+			padding-top: 40px !important;
+			padding-bottom: 20px !important;
+		}
 
 		.container {
 			width: 659px;
 		}
+	}
+
+	&__colored-section {
+		padding-top: 36px;
+		padding-bottom: 12px;
+		@media only screen and (max-width: 789px) {
+			padding-top: 25px !important;
+		}
+	}
+	&__button {
+		a {
+			font-weight: 600 !important;
+			padding: 11px 31px !important;
+			@media only screen and (max-width: 789px) {
+				font-weight: bold !important;
+			}
+		}
+		@media only screen and (max-width: 789px) {
+			display: block !important;
+			width: 100% !important;
+			text-align: center !important;
+			* {
+				display: block !important;
+				text-align: center !important;
+			}
+		}
+	}
+}
+
+.white-section-partner {
+	padding-top: 43px;
+	padding-bottom: 38px;
+	@media only screen and (max-width: 789px) {
+		padding-top: 18px !important;
+		padding-bottom: 25px !important;
+	}
+
+	&__title {
+		max-width: 550px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }

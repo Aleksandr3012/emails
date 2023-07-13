@@ -128,4 +128,41 @@ table.button.google table td {
 .menu .menu-item {
 	font-size: 10px;
 	font-weight: 600;
+
+	@media only screen and (max-width: 789px) {
+		display: block !important;
+		width: 100% !important;
+	}
+}
+
+.footer {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	@media only screen and (max-width: 789px) {
+		padding-top: 25px !important;
+		padding-bottom: 25px !important;
+	}
+	.menu .menu-item {
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-bottom: 10px !important;
+		position: relative;
+		&:not(:last-child) {
+			&:before {
+				content: '';
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				right: 0;
+				height: 13px;
+				width: 1px;
+				background-color: #1E49FF;
+			}
+		}
+		@media only screen and (max-width: 789px) {
+			&:before {
+				content: none !important;
+			}
+		}
+	}
 }

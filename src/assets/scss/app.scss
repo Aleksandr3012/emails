@@ -7,7 +7,7 @@
 //MOT
 .mot-header {
 	&__logo {
-		@media screen and (max-width: 789px) {
+		@media only screen and (max-width: 789px) {
 			text-align: center !important;
 			display: block !important;
 			img {
@@ -17,12 +17,14 @@
 			}
 		}
 	}
+
 	.button {
-			@media screen and (max-width: 789px) {
-				margin-left: auto !important;
-				margin-right: auto !important;
-			}
+		@media only screen and (max-width: 789px) {
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}
 	}
+
 	&__number {
 		background-color: $warning-color;
 		border-left: solid #7E8293 16px;
@@ -41,7 +43,7 @@
 		width: 320px;
 		background-color: #7E8293;
 		margin: 17px 0;
-		@media screen and (max-width: 789px) {
+		@media only screen and (max-width: 789px) {
 			margin-left: auto !important;
 			margin-right: auto !important;
 		}
@@ -64,8 +66,8 @@
 	}
 
 	&__check-icon {
-		width: 44px !important;
-		height: 44px !important;
+		width: 55px !important;
+		height: 55px !important;
 		object-fit: contain;
 		display: inline-block;
 	}
@@ -74,11 +76,11 @@
 		margin-bottom: 0;
 		margin-top: 0;
 		padding-right: 10px;
-		padding-left: 5px;
 		font-size: 14px;
 	}
+
 	&__main-text {
-		@media screen and (max-width: 789px) {
+		@media only screen and (max-width: 789px) {
 			text-align: center !important;
 			h1,
 			h2,
@@ -101,9 +103,10 @@
 .white-logo {
 	text-align: center;
 	display: inline-block;
+
 	img {
 		display: inline-block;
-		@media screen and (max-width: 789px) {
+		@media only screen and (max-width: 789px) {
 			width: 98px !important;
 			height: 43px !important;
 		}
@@ -145,7 +148,7 @@
 		border-bottom: 1px solid #DBDBDB;
 
 		.container {
-				width: 659px;
+			width: 659px;
 		}
 	}
 }

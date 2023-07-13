@@ -5,37 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdb4a65f-df24-4716-86a5-f00692610ffb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/check-shadow.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/assets/img/partner-car-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/partner-car-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/partner-main.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/partner-main.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/drip.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/drip.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/hero.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/hero.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/marketing.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/marketing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/mot.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/mot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/newsletter-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/newsletter-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/newsletter.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/newsletter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/partner.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/partner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/password.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sidebar-hero.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/sidebar-hero.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/welcome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/drip.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/hero.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/marketing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/mot.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/mot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/newsletter-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/newsletter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/order.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/partner-car-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/partner-car-2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/partner.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/partner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/password.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/sidebar-hero.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/sidebar.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +80,7 @@
       <workItem from="1688990161214" duration="3275000" />
       <workItem from="1688993452877" duration="2095000" />
       <workItem from="1689076528153" duration="22395000" />
-      <workItem from="1689165551086" duration="8377000" />
+      <workItem from="1689165551086" duration="9456000" />
     </task>
     <servers />
   </component>

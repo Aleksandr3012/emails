@@ -250,7 +250,6 @@ th.expander {
 }
 
 h1.text-center,
-h3.text-center,
 h4.text-center,
 p.text-center {
   text-align: center;
@@ -978,4 +977,8 @@ html,
   max-width: 550px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.welcome__check-text {
+  padding-top: 10px;
 }

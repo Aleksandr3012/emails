@@ -5,18 +5,18 @@ subject: My Basic Email Template Subject
 <div class="header mot-header">
 	<container>
 		<a class="mot-header__logo" href="https://www.regit.cars/" target="_blank">
-			<img src="https://aleksandr3012.github.io/emails/dist/assets/img/welcome.png" height="55" width="125"/>
+			<img src="https://aleksandr3012.github.io/emails/dist/assets/img/logo.png" height="55" width="125"/>
 		</a>
 		<row class="collapse">
-			<columns large="7" class="mot-header__main-text">
-				<h2 class="mot-header__title">Welcome to Regit</h2>
-				<p class="small-paragraph mot-header__paragraph fw-700">Where you can buy, sell and maintain your car in
+			<columns large="7" class="mot-header__main-text" valign="middle">
+				<h1 class="welcome__title">Welcome to Regit</h1>
+				<p class="fw-700 welcome__paragraph">Where you can buy, sell and maintain your car in
 					seconds</p>
 				<button href="#" target="_blank" class="secondary radius">Visit your Garage</button>
 			</columns>
 			<columns large="5">
 				<div class="text-center">
-					<img src="https://aleksandr3012.github.io/emails/dist/assets/img/mot-img.png" height="313" width="350"
+					<img src="https://aleksandr3012.github.io/emails/dist/assets/img/welcome.png" height="313" width="350"
 							 class="mot-header__img" alt="MOT img"/>
 				</div>
 			</columns>
@@ -110,20 +110,26 @@ subject: My Basic Email Template Subject
 	</container>
 </div>
 
-<div class="colored-section colored-section-mot">
+<div class="colored-section welcome__colored-section">
 	<container>
-		<h4 class="text-center fw-700">is this vehicle no longer yours?</h4>
-		<p class="text-center colored-section-mot__upgrade">Update your garage and earn a <strong>free Spin the
-			Speedo</strong> where you can win track days, free
-			coffees, MOT’s and more</p>
-		<center>
-			<button
-				href="https://www.regit.cars/garage/6402408/health?utm_campaign=due-date-mot-7&utm_medium=email&utm_source=followup"
-				target="_blank" class="success radius">Update your Garage
-			</button>
-		</center>
+		<row>
+			<columns large="4" valign="middle">
+				<img src="https://aleksandr3012.github.io/emails/dist/assets/img/speedo.png" height="247" width="258"/>
+			</columns>
+			<columns large="4" valign="middle">
+				<h4 class="text-center fw-700 welcome__spin-title">Play Spin the Speedo now for the chance to win!</h4>
+				<center>
+					<button href="$" target="_blank" class="secondary radius">Spin Now</button>
+					<a class="text-center welcome__spin-terms">Terms & conditions apply</a>
+				</center>
+			</columns>
+			<columns large="4" valign="middle">
+				<img src="https://aleksandr3012.github.io/emails/dist/assets/img/spin.png" height="43" width="98"/>
+			</columns>
+		</row>
 	</container>
 </div>
+
 <div class="white-section above-footer">
 	<container>
 		<center>
@@ -134,8 +140,8 @@ subject: My Basic Email Template Subject
 		<spacer size="20"></spacer>
 		<p class="fw-300 text-center info-text">
 			<a href="https://www.regit.cars/" target="_blank">Motoring.co.uk</a> Ltd t/a Regit, Level 3, Suite 1, Glasshouse,
-			Block 15, Alderley Park, Macclesfield, SK10 4TG. <a href="https://www.regit.cars/"
-																													target="_blank">Motoring.co.uk</a> Ltd is
+			Block 15, Alderley Park, Macclesfield, SK10 4TG.
+			<a href="https://www.regit.cars/" target="_blank">Motoring.co.uk</a> Ltd is
 			authorised and regulated by the Financial Conduct Authority (Firm Ref.711752)
 			and is a credit broker not a lender. <a href="https://www.regit.cars/" target="_blank">Motoring.co.uk</a> is
 			registered as a limited
@@ -149,11 +155,10 @@ subject: My Basic Email Template Subject
 		<menu>
 			<item href="https://www.regit.cars/garage/preferences">Update Your Preferences</item>
 			<item href="https://www.regit.cars/garage/preferences">Unsubscribe.</item>
-			<item
-				href="https://www.regit.cars/privacy-policy?utm_campaign=due-date-mot-7&utm_medium=email&utm_source=followup">
+			<item href="https://www.regit.cars/privacy-policy?utm_campaign=due-date-mot-7&utm_medium=email&utm_source=followup">
 				View Privacy Policy
 			</item>
-			<item href="#">Online version</item>
+			<item href="https://www.regit.cars/">Online version</item>
 		</menu>
 	</center>
 	<spacer size="5"></spacer>

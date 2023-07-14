@@ -319,7 +319,41 @@
 
 .welcome {
 
+	&__title {
+		font-size: 36px;
+		padding-bottom: 25px;
+	}
+
+	&__paragraph {
+		padding-bottom: 35px;
+	}
+
 	&__check-text {
 		padding-top: 10px;
+		font-size: 14px;
+		line-height: 18px;
+		@media only screen and (max-width: 789px) {
+			font-size: 16px !important;
+			line-height: 20px !important;
+		}
+	}
+
+	&__colored-section {
+		padding-top: 60px;
+		padding-bottom: 70px;
+		@media only screen and (max-width: 789px) {
+			padding-top: 44px !important;
+			padding-bottom: 39px !important;
+		}
+	}
+
+	&__spin-title {
+		font-family: $secondary-font;
+	}
+
+	&__spin-terms {
+		font-size: 12px;
+		line-height: 15px;
+		color: #7E8293;
 	}
 }

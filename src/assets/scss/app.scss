@@ -338,22 +338,103 @@
 		}
 	}
 
-	&__colored-section {
+	&__white-section {
 		padding-top: 60px;
 		padding-bottom: 70px;
 		@media only screen and (max-width: 789px) {
 			padding-top: 44px !important;
 			padding-bottom: 39px !important;
 		}
+
+		.container {
+			width: 900px;
+		}
 	}
 
 	&__spin-title {
 		font-family: $secondary-font;
+		font-weight: normal;
+		margin-bottom: 20px;
 	}
 
 	&__spin-terms {
 		font-size: 12px;
 		line-height: 15px;
 		color: #7E8293;
+	}
+
+	&__spin-btn {
+		a {
+			padding: 11px 44px !important;
+			font-weight: 600 !important;
+			font-size: 14px !important;
+		}
+		@media only screen and (max-width: 789px) {
+			display: block !important;
+			width: 100% !important;
+			text-align: center !important;
+			* {
+				display: block !important;
+				text-align: center !important;
+			}
+		}
+	}
+
+	&__colored-section {
+		.container {
+			width: 521px;
+		}
+		padding-top: 64px;
+		padding-bottom: 64px;
+		@media only screen and (max-width: 789px) {
+			padding-top: 45px !important;
+			padding-bottom: 45px !important;
+		}
+	}
+
+	&__explore {
+		margin-bottom: 20px;
+		margin-top: 34px;
+	}
+
+	&__ev {
+		@media only screen and (max-width: 789px) {
+			width: 273px !important;
+		}
+	}
+
+	&__speedo-img {
+		@media only screen and (max-width: 789px) {
+			width: 222px !important;
+		}
+	}
+
+	&__spin-img {
+		@media only screen and (max-width: 789px) {
+			display: none !important;
+		}
+	}
+
+	&__view-btn {
+		margin-top: 35px;
+		@media only screen and (max-width: 789px) {
+			margin-top: 22px !important;
+			display: block !important;
+			width: 100% !important;
+			text-align: center !important;
+			* {
+				display: block !important;
+				text-align: center !important;
+			}
+		}
+		a {
+			background-color: #7ED321;
+			padding: 11px 30px !important;
+			font-weight: 600 !important;
+			color: #050A19;
+			@media only screen and (max-width: 789px) {
+				font-weight: 700 !important;
+			}
+		}
 	}
 }

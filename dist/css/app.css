@@ -997,21 +997,100 @@ html,
     line-height: 20px !important;
   }
 }
-.welcome__colored-section {
+.welcome__white-section {
   padding-top: 60px;
   padding-bottom: 70px;
 }
 @media only screen and (max-width: 789px) {
-  .welcome__colored-section {
+  .welcome__white-section {
     padding-top: 44px !important;
     padding-bottom: 39px !important;
   }
 }
+.welcome__white-section .container {
+  width: 900px;
+}
 .welcome__spin-title {
   font-family: "Roboto Slab", serif;
+  font-weight: normal;
+  margin-bottom: 20px;
 }
 .welcome__spin-terms {
   font-size: 12px;
   line-height: 15px;
   color: #7E8293;
+}
+.welcome__spin-btn a {
+  padding: 11px 44px !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+}
+@media only screen and (max-width: 789px) {
+  .welcome__spin-btn {
+    display: block !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+  .welcome__spin-btn * {
+    display: block !important;
+    text-align: center !important;
+  }
+}
+.welcome__colored-section {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.welcome__colored-section .container {
+  width: 521px;
+}
+@media only screen and (max-width: 789px) {
+  .welcome__colored-section {
+    padding-top: 45px !important;
+    padding-bottom: 45px !important;
+  }
+}
+.welcome__explore {
+  margin-bottom: 20px;
+  margin-top: 34px;
+}
+@media only screen and (max-width: 789px) {
+  .welcome__ev {
+    width: 273px !important;
+  }
+}
+@media only screen and (max-width: 789px) {
+  .welcome__speedo-img {
+    width: 222px !important;
+  }
+}
+@media only screen and (max-width: 789px) {
+  .welcome__spin-img {
+    display: none !important;
+  }
+}
+.welcome__view-btn {
+  margin-top: 35px;
+}
+@media only screen and (max-width: 789px) {
+  .welcome__view-btn {
+    margin-top: 22px !important;
+    display: block !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+  .welcome__view-btn * {
+    display: block !important;
+    text-align: center !important;
+  }
+}
+.welcome__view-btn a {
+  background-color: #7ED321;
+  padding: 11px 30px !important;
+  font-weight: 600 !important;
+  color: #050A19;
+}
+@media only screen and (max-width: 789px) {
+  .welcome__view-btn a {
+    font-weight: 700 !important;
+  }
 }

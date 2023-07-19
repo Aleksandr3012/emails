@@ -6,6 +6,11 @@
 
 //MOT
 .mot-header {
+	padding-top: 32px;
+	padding-bottom: 49px;
+	@media only screen and (max-width: 789px) {
+		padding-bottom: 16px !important;
+	}
 	&__logo {
 		@media only screen and (max-width: 789px) {
 			text-align: center !important;
@@ -36,6 +41,10 @@
 		font-family: $secondary-font;
 		display: inline-block;
 		margin-left: 10px;
+		color: $global-font-color;
+		@media only screen and (max-width: 789px) {
+			margin-bottom: 18px !important;
+		}
 	}
 
 	&__separator {
@@ -65,6 +74,9 @@
 
 	&__paragraph {
 		margin-bottom: 10px;
+		@media only screen and (max-width: 789px) {
+			margin-bottom: 23px !important;
+		}
 
 		&-bottom {
 			font-weight: 600;
@@ -206,6 +218,12 @@
 
 // Partner
 .partner {
+	&__title {
+		margin-top: 66px;
+		@media only screen and (max-width: 789px) {
+			margin-top: 38px !important;
+		}
+	}
 	&__paragraph {
 		margin-top: 20px;
 		margin-bottom: 28px;
@@ -233,11 +251,12 @@
 	}
 
 	&__btn {
+		margin-top: 15px !important;
 		@media only screen and (max-width: 789px) {
 			display: block !important;
 			width: 100% !important;
 			text-align: center !important;
-			margin-top: 26px !important;
+			margin-top: 25px !important;
 			* {
 				display: block !important;
 				text-align: center !important;
@@ -312,6 +331,7 @@
 		max-width: 550px;
 		margin-left: auto;
 		margin-right: auto;
+		margin-bottom: 15px;
 	}
 }
 

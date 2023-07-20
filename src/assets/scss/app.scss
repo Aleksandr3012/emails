@@ -219,6 +219,7 @@
 // Partner
 .partner {
 	&__title {
+		hyphens: none;
 		margin-top: 66px;
 		@media only screen and (max-width: 789px) {
 			margin-top: 38px !important;

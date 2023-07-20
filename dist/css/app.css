@@ -899,6 +899,7 @@ html,
 }
 
 .partner__title {
+  hyphens: none;
   margin-top: 66px;
 }
 @media only screen and (max-width: 789px) {

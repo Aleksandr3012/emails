@@ -1,6 +1,9 @@
 // These are the styles to make some of the templates look extra nice.
 // Feel free to remove these styles for production!
-
+:root {
+	color-scheme: light dark;
+	supported-color-schemes: light dark;
+}
 // Body Styles 
 body,
 html,

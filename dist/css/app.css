@@ -564,6 +564,11 @@ table.menu.vertical th.menu-item a {
     width: auto !important;
   }
 }
+:root {
+  color-scheme: light dark;
+  supported-color-schemes: light dark;
+}
+
 body,
 html,
 .body {
@@ -723,7 +728,12 @@ html,
   font-family: "Roboto Slab", serif;
   display: inline-block;
   margin-left: 10px;
-  color: #050A19 !important;
+  color: #050A19;
+}
+@media (prefers-color-scheme: dark) {
+  .mot-header__number {
+    color: #050A19;
+  }
 }
 @media only screen and (max-width: 789px) {
   .mot-header__number {

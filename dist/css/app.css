@@ -728,16 +728,18 @@ html,
   font-family: "Roboto Slab", serif;
   display: inline-block;
   margin-left: 10px;
-  color: #050A19;
+  color: #050A19 !important;
 }
 @media (prefers-color-scheme: dark) {
   .mot-header__number {
-    color: #050A19;
+    color: #050A19 !important;
   }
 }
 @media only screen and (max-width: 789px) {
   .mot-header__number {
     margin-bottom: 18px !important;
+    display: inline-block;
+    margin-top: 18px;
   }
 }
 .mot-header__separator {
@@ -751,6 +753,7 @@ html,
   .mot-header__separator {
     margin-left: auto !important;
     margin-right: auto !important;
+    display: none !important;
   }
 }
 .mot-header__title {
@@ -760,7 +763,7 @@ html,
 @media only screen and (max-width: 789px) {
   .mot-header__title {
     padding-top: 40px !important;
-    padding-bottom: 24px !important;
+    padding-bottom: 6px !important;
   }
 }
 .mot-header__subtitle {

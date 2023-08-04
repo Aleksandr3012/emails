@@ -183,6 +183,24 @@ th.large-5.last {
   width: 330.0833333333px;
 }
 
+th.large-6 {
+  width: 370.5px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+th.large-6.first {
+  padding-left: 16px;
+}
+
+th.large-6.last {
+  padding-right: 16px;
+}
+
+.body .columns th.large-6 {
+  width: 50%;
+}
+
 th.large-7 {
   width: 434.9166666667px;
   padding-left: 8px;
@@ -290,6 +308,7 @@ h1,
 h2,
 h3,
 h4,
+h5,
 p,
 td,
 th {
@@ -306,7 +325,8 @@ th {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   color: inherit;
   word-wrap: normal;
   font-family: "Mulish", sans-serif;
@@ -329,6 +349,10 @@ h3 {
 
 h4 {
   font-size: 22px;
+}
+
+h5 {
+  font-size: 20px;
 }
 
 body,
@@ -539,6 +563,10 @@ table.menu.vertical th.menu-item a {
   th.small-2 {
     display: inline-block !important;
     width: 16.666666% !important;
+  }
+  th.small-6 {
+    display: inline-block !important;
+    width: 50% !important;
   }
   th.small-10 {
     display: inline-block !important;
@@ -1038,7 +1066,13 @@ html,
 
 .welcome__title {
   font-size: 36px;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
+}
+@media only screen and (max-width: 789px) {
+  .welcome__title {
+    font-size: 22px !important;
+    margin-top: 38px;
+  }
 }
 .welcome__paragraph {
   padding-bottom: 35px;
@@ -1054,6 +1088,12 @@ html,
     line-height: 20px !important;
   }
 }
+.welcome__check-icon {
+  width: 55px !important;
+  height: 55px !important;
+  object-fit: contain;
+  display: inline-block;
+}
 .welcome__white-section {
   padding-top: 60px;
   padding-bottom: 70px;
@@ -1061,16 +1101,17 @@ html,
 @media only screen and (max-width: 789px) {
   .welcome__white-section {
     padding-top: 44px !important;
-    padding-bottom: 39px !important;
+    padding-bottom: 9px !important;
   }
 }
 .welcome__white-section .container {
-  width: 900px;
+  width: 1000px;
 }
 .welcome__spin-title {
   font-family: "Roboto Slab", serif;
   font-weight: normal;
   margin-bottom: 20px;
+  font-size: 26px;
 }
 .welcome__spin-terms {
   font-size: 12px;
@@ -1110,6 +1151,9 @@ html,
   margin-bottom: 20px;
   margin-top: 34px;
 }
+.welcome__ev-paragraph {
+  font-size: 14px;
+}
 @media only screen and (max-width: 789px) {
   .welcome__ev {
     width: 273px !important;
@@ -1126,7 +1170,7 @@ html,
   }
 }
 .welcome__view-btn {
-  margin-top: 35px;
+  margin-top: 35px !important;
 }
 @media only screen and (max-width: 789px) {
   .welcome__view-btn {
@@ -1144,10 +1188,15 @@ html,
   background-color: #7ED321;
   padding: 11px 30px !important;
   font-weight: 600 !important;
-  color: #050A19;
+  color: #050A19 !important;
 }
 @media only screen and (max-width: 789px) {
   .welcome__view-btn a {
     font-weight: 700 !important;
   }
+}
+
+.newsletter__colored-section {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }

@@ -1195,8 +1195,11 @@ html,
     font-weight: 700 !important;
   }
 }
-
 .newsletter__colored-section {
+  padding-top: 44px;
+  padding-bottom: 40px;
+}
+.newsletter__white-section {
   padding-top: 30px;
   padding-bottom: 30px;
 }

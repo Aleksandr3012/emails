@@ -488,7 +488,17 @@
 .newsletter {
 	&__title {}
 
+	h5 {
+		font-weight: bold;
+	}
+
 	&__colored-section {
+		padding-top: 44px;
+		padding-bottom: 40px;
+
+	}
+
+	&__white-section {
 		padding-top: 30px;
 		padding-bottom: 30px;
 	}

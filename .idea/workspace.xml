@@ -6,15 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="bdb4a65f-df24-4716-86a5-f00692610ffb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/ev.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/ev.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/mot.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/mot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/newsletter.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/newsletter.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/partner.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/partner.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/welcome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/ev.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/ev.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/newsletter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/newsletter.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +26,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2SNWUiamTEOoe335a4TAkCdQCtE" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -116,7 +115,8 @@
       <workItem from="1689865976794" duration="6000" />
       <workItem from="1690387138172" duration="4358000" />
       <workItem from="1690452333240" duration="1954000" />
-      <workItem from="1691136623537" duration="9864000" />
+      <workItem from="1691136623537" duration="11074000" />
+      <workItem from="1691396105600" duration="4770000" />
     </task>
     <servers />
   </component>

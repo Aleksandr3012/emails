@@ -532,4 +532,60 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+
+	&__colored-card {
+		td.large-6.first, th.large-6.first {
+			padding: 0;
+		}
+	}
+	&__white-card {
+		padding-bottom: 38px;
+		td.large-6.last, th.large-6.last {
+			padding: 0;
+		}
+	}
+
+	&__card-text {
+		max-width: 255px;
+		margin-left: auto;
+		margin-right: auto;
+
+		h5 {
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 20px;
+			margin-bottom: 17px;
+		}
+	}
+
+	&__bg-section {
+		background-color: #050A19 !important;
+
+		h3 {
+			color: white;
+		}
+
+		.container {
+			background-color: #050A19 !important;
+		}
+	}
+
+	&__benefits {
+		padding-top: 63px;
+		padding-bottom: 20px;
+		* {
+			text-align: center;
+		}
+		@media only screen and (max-width: 789px) {
+			padding-bottom: 0 !important;
+			padding-top: 33px !important;
+		}
+
+		p {
+			margin-top: 11px;
+			margin-bottom: 36px;
+			font-size: 12px;
+			font-weight: 600;
+		}
+	}
 }//newsletter end

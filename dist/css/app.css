@@ -113,6 +113,20 @@ th.columns table.button {
   width: auto;
 }
 
+th.large-2 {
+  width: 112.8333333333px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+th.large-2.first {
+  padding-left: 16px;
+}
+
+th.large-2.last {
+  padding-right: 16px;
+}
+
 th.large-3 {
   width: 177.25px;
   padding-left: 8px;
@@ -309,6 +323,7 @@ h2,
 h3,
 h4,
 h5,
+h6,
 p,
 td,
 th {
@@ -326,7 +341,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
   color: inherit;
   word-wrap: normal;
   font-family: "Mulish", sans-serif;
@@ -353,6 +369,10 @@ h4 {
 
 h5 {
   font-size: 20px;
+}
+
+h6 {
+  font-size: 18px;
 }
 
 body,
@@ -1225,4 +1245,52 @@ html,
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+}
+.newsletter__colored-card th.large-6.first {
+  padding: 0;
+}
+.newsletter__white-card {
+  padding-bottom: 38px;
+}
+.newsletter__white-card th.large-6.last {
+  padding: 0;
+}
+.newsletter__card-text {
+  max-width: 255px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.newsletter__card-text h5 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 17px;
+}
+.newsletter__bg-section {
+  background-color: #050A19 !important;
+}
+.newsletter__bg-section h3 {
+  color: white;
+}
+.newsletter__bg-section .container {
+  background-color: #050A19 !important;
+}
+.newsletter__benefits {
+  padding-top: 63px;
+  padding-bottom: 20px;
+}
+.newsletter__benefits * {
+  text-align: center;
+}
+@media only screen and (max-width: 789px) {
+  .newsletter__benefits {
+    padding-bottom: 0 !important;
+    padding-top: 33px !important;
+  }
+}
+.newsletter__benefits p {
+  margin-top: 11px;
+  margin-bottom: 36px;
+  font-size: 12px;
+  font-weight: 600;
 }

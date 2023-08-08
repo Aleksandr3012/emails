@@ -11,6 +11,7 @@
 	@media only screen and (max-width: 789px) {
 		padding-bottom: 16px !important;
 	}
+
 	&__logo {
 		@media only screen and (max-width: 789px) {
 			text-align: center !important;
@@ -100,7 +101,7 @@
 		max-width: 350px;
 		margin-left: auto;
 		margin-right: auto;
-		@media only screen and (max-width: 789px)  {
+		@media only screen and (max-width: 789px) {
 			max-width: 200px !important;
 		}
 	}
@@ -184,7 +185,7 @@
 		line-height: 18px;
 	}
 
-	.button a{
+	.button a {
 		padding-top: 11px;
 		padding-bottom: 11px;
 	}
@@ -197,6 +198,7 @@
 		padding-top: 25px !important;
 		padding-bottom: 20px !important;
 	}
+
 	p {
 		a {
 			color: #1E49FF;
@@ -220,7 +222,9 @@
 .info-text {
 	font-size: 12px;
 	line-height: 22px;
-}//MOT end
+}
+
+//MOT end
 
 // Partner
 .partner {
@@ -232,6 +236,7 @@
 			font-size: 28px !important;
 		}
 	}
+
 	&__paragraph {
 		margin-top: 20px;
 		margin-bottom: 28px;
@@ -270,6 +275,7 @@
 				text-align: center !important;
 			}
 		}
+
 		a {
 			font-weight: 600 !important;
 			padding: 9px 27px;
@@ -307,6 +313,7 @@
 			padding-top: 25px !important;
 		}
 	}
+
 	&__button {
 		a {
 			font-weight: 600 !important;
@@ -315,6 +322,7 @@
 				font-weight: bold !important;
 			}
 		}
+
 		@media only screen and (max-width: 789px) {
 			display: block !important;
 			width: 100% !important;
@@ -341,7 +349,9 @@
 		margin-right: auto;
 		margin-bottom: 15px;
 	}
-}// Partner end
+}
+
+// Partner end
 
 //welcome
 .welcome {
@@ -408,6 +418,7 @@
 			font-weight: 600 !important;
 			font-size: 14px !important;
 		}
+
 		@media only screen and (max-width: 789px) {
 			display: block !important;
 			width: 100% !important;
@@ -423,6 +434,7 @@
 		.container {
 			width: 521px;
 		}
+
 		padding-top: 64px;
 		padding-bottom: 64px;
 		@media only screen and (max-width: 789px) {
@@ -470,6 +482,7 @@
 				text-align: center !important;
 			}
 		}
+
 		a {
 			background-color: #7ED321;
 			padding: 11px 30px !important;
@@ -480,11 +493,41 @@
 			}
 		}
 	}
-}//welcome end
+}
+
+//welcome end
 
 //newsletter
 .newsletter {
-	&__title {}
+
+	&__title {
+		font-size: 22px;
+		line-height: 29px;
+		margin-bottom: 19px;
+		font-weight: normal;
+		font-family: $secondary-font;
+		@media only screen and (max-width: 789px) {
+			margin-top: 37px !important;
+			margin-bottom: 19px !important;
+		}
+	}
+
+	&__main-text {
+		max-width: 370px;
+		@media only screen and (max-width: 789px) {
+			max-width: none !important;
+		}
+	}
+
+	&__subtitle {
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 20px;
+		margin-bottom: 28px;
+		@media only screen and (max-width: 789px) {
+			margin-bottom: 40px !important;
+		}
+	}
 
 	&__card-title {
 		min-height: 40px;
@@ -497,27 +540,117 @@
 	&__colored-section {
 		padding-top: 44px;
 		padding-bottom: 40px;
+		@media only screen and (max-width: 789px) {
+			padding-top: 21px !important;
+			padding-bottom: 0 !important;
+		}
 
+		td.columns, td.column, th.columns, th.column {
+			padding-bottom: 0;
+		}
+
+		.button {
+			@media only screen and (max-width: 789px) {
+				margin-left: auto !important;
+				margin-right: auto !important;
+			}
+		}
 	}
 
 	&__white-section {
 		padding-top: 30px;
 		padding-bottom: 30px;
+
+		td.columns, td.column, th.columns, th.column {
+			padding-bottom: 0;
+		}
+
+		@media only screen and (max-width: 789px) {
+			display: none !important;
+			width: 0 !important;
+			mso-hide: all !important;
+			overflow: hidden !important;
+		}
+
+		.button {
+			@media only screen and (max-width: 789px) {
+				margin-left: auto !important;
+				margin-right: auto !important;
+			}
+		}
 	}
 
 	&__card-section {
 		padding-top: 22px;
-		padding-bottom: 50px;
+		padding-bottom: 18px;
+
+		td.columns, td.column, th.columns, th.column {
+			padding-bottom: 0;
+		}
+	}
+
+	&__image-section {
+		padding-bottom: 52px;
+		padding-top: 0;
+
+		td.columns, td.column, th.columns, th.column {
+			padding-bottom: 0;
+		}
+
+		h4 {
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 20px;
+		}
+
+		p {
+			font-size: 12px;
+			font-weight: 300;
+			line-height: 15px;
+			max-width: 600px;
+			margin-left: auto;
+			margin-right: auto;
+		}
 	}
 
 	&__image-wrap {
 		margin-bottom: 19px;
 	}
 
+	&__btn {
+		@media only screen and (max-width: 789px) {
+			margin-top: 22px !important;
+			display: block !important;
+			width: 100% !important;
+			text-align: center !important;
+			* {
+				display: block !important;
+				text-align: center !important;
+			}
+		}
+
+		a {
+			font-weight: normal !important;
+		}
+	}
+
+	&__title-sm {
+		font-size: 16px;
+		font-weight: bold;
+		line-height: 20px;
+		@media only screen and (max-width: 789px) {
+			text-align: center !important;
+			margin-top: 26px !important;
+		}
+	}
+
 	&__paragraph {
 		font-size: 12px;
 		font-weight: 300;
 		margin-bottom: 23px;
+		@media only screen and (max-width: 789px) {
+			text-align: center !important;
+		}
 	}
 
 	&__card-paragraph {
@@ -525,6 +658,11 @@
 		margin-bottom: 19px;
 		font-size: 12px;
 		font-weight: 300;
+
+		@media only screen and (max-width: 789px) {
+			min-height: auto !important;
+			text-align: center !important;
+		}
 	}
 
 	&__small-container {
@@ -537,11 +675,37 @@
 		td.large-6.first, th.large-6.first {
 			padding: 0;
 		}
+
+		table.container {
+			@media only screen and (max-width: 789px) {
+				width: 100% !important;
+
+				.columns {
+					padding-left: 0 !important;
+					padding-right: 0 !important;
+				}
+			}
+		}
 	}
+
 	&__white-card {
 		padding-bottom: 38px;
+		@media only screen and (max-width: 789px) {
+			padding-bottom: 20px !important;
+		}
+
 		td.large-6.last, th.large-6.last {
 			padding: 0;
+		}
+
+		table.container {
+			@media only screen and (max-width: 789px) {
+				width: 100% !important;
+				.columns {
+					padding-left: 0 !important;
+					padding-right: 0 !important;
+				}
+			}
 		}
 	}
 
@@ -550,11 +714,20 @@
 		margin-left: auto;
 		margin-right: auto;
 
+		@media only screen and (max-width: 789px) {
+			max-width: 400px !important;
+			padding-left: 8px !important;
+			padding-right: 8px !important;
+		}
+
 		h5 {
 			font-weight: bold;
 			font-size: 16px;
 			line-height: 20px;
 			margin-bottom: 17px;
+			@media only screen and (max-width: 789px) {
+				text-align: center !important;
+			}
 		}
 	}
 
@@ -562,7 +735,13 @@
 		background-color: #050A19 !important;
 
 		h3 {
+			font-size: 22px;
+			line-height: 24px;
+			margin-bottom: 23px;
 			color: white;
+			@media only screen and (max-width: 789px) {
+				text-align: center !important;
+			}
 		}
 
 		.container {
@@ -573,19 +752,38 @@
 	&__benefits {
 		padding-top: 63px;
 		padding-bottom: 20px;
+		border-bottom: 1px solid #DBDBDB;
+
 		* {
 			text-align: center;
 		}
+
 		@media only screen and (max-width: 789px) {
 			padding-bottom: 0 !important;
 			padding-top: 33px !important;
 		}
 
+		h6 {
+			margin-bottom: 22px;
+			font-size: 12px;
+			font-weight: bold;
+			@media only screen and (max-width: 789px) {
+				margin-bottom: 35px !important;
+			}
+		}
+
 		p {
 			margin-top: 11px;
-			margin-bottom: 36px;
+			margin-bottom: 20px;
 			font-size: 12px;
 			font-weight: 600;
 		}
+
+		img {
+			width: 35px !important;
+			height: 35px !important;
+		}
 	}
-}//newsletter end
+}
+
+//newsletter end

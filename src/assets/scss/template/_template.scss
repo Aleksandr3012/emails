@@ -4,11 +4,19 @@
 	color-scheme: light dark;
 	supported-color-schemes: light dark;
 }
-// Body Styles 
+
+// Body Styles
 body,
 html,
 .body {
 	background: $light-blue !important;
+}
+
+th.small-4 {
+	@media only screen and (max-width: 789px) {
+		display: inline-block !important;
+		width: 33% !important;
+	}
 }
 
 .container.header {
@@ -79,9 +87,11 @@ table.button.google table td {
 
 .colored-section {
 	background-color: $light-blue !important;
+
 	.container {
 		background-color: $light-blue !important;
 	}
+
 	* {
 		color: #050A19;
 	}
@@ -89,9 +99,11 @@ table.button.google table td {
 
 .white-section {
 	background-color: #fff !important;
+
 	.container {
 		background-color: #fff !important;
 	}
+
 	* {
 		color: #050A19;
 	}
@@ -122,7 +134,7 @@ table.button.google table td {
 	text-align: center;
 }
 
-.button.success a{
+.button.success a {
 	color: #050A19;
 	font-size: 14px;
 	font-weight: 600;
@@ -145,11 +157,13 @@ table.button.google table td {
 		padding-top: 25px !important;
 		padding-bottom: 25px !important;
 	}
+
 	.menu .menu-item {
 		padding-top: 0;
 		padding-bottom: 0;
 		margin-bottom: 10px !important;
 		position: relative;
+
 		&:not(:last-child) {
 			&:before {
 				content: '';
@@ -162,6 +176,7 @@ table.button.google table td {
 				background-color: #1E49FF;
 			}
 		}
+
 		@media only screen and (max-width: 789px) {
 			&:before {
 				content: none !important;

@@ -673,7 +673,7 @@
 
 	&__colored-card {
 		td.large-6.first, th.large-6.first {
-			padding: 0;
+			padding: 0 !important;
 		}
 
 		table.container {
@@ -694,8 +694,8 @@
 			padding-bottom: 20px !important;
 		}
 
-		td.large-6.last, th.large-6.last {
-			padding: 0;
+		td.large-6.middle, th.large-6.middle {
+			padding: 0 !important;
 		}
 
 		table.container {

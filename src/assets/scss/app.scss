@@ -220,7 +220,7 @@
 .info-text {
 	font-size: 12px;
 	line-height: 22px;
-}
+}//MOT end
 
 // Partner
 .partner {
@@ -341,10 +341,9 @@
 		margin-right: auto;
 		margin-bottom: 15px;
 	}
-}
+}// Partner end
 
 //welcome
-
 .welcome {
 
 	&__title {
@@ -481,14 +480,17 @@
 			}
 		}
 	}
-}
+}//welcome end
 
 //newsletter
-
 .newsletter {
 	&__title {}
 
-	h5 {
+	&__card-title {
+		min-height: 40px;
+		margin-bottom: 9px;
+		font-size: 16px;
+		line-height: 20px;
 		font-weight: bold;
 	}
 
@@ -502,4 +504,32 @@
 		padding-top: 30px;
 		padding-bottom: 30px;
 	}
-}
+
+	&__card-section {
+		padding-top: 22px;
+		padding-bottom: 50px;
+	}
+
+	&__image-wrap {
+		margin-bottom: 19px;
+	}
+
+	&__paragraph {
+		font-size: 12px;
+		font-weight: 300;
+		margin-bottom: 23px;
+	}
+
+	&__card-paragraph {
+		min-height: 45px;
+		margin-bottom: 19px;
+		font-size: 12px;
+		font-weight: 300;
+	}
+
+	&__small-container {
+		max-width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}//newsletter end

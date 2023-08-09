@@ -4,7 +4,7 @@ subject: Newsletter mail
 
 <div class="header mot-header">
 	<container>
-		<row class="collapse">
+		<row>
 			<columns small="12">
 				<a class="mot-header__logo" href="https://www.regit.cars/" target="_blank">
 					<img src="https://aleksandr3012.github.io/emails/dist/assets/img/logo.png" height="55" width="125"
@@ -12,11 +12,15 @@ subject: Newsletter mail
 				</a>
 			</columns>
 		</row>
-		<row class="collapse">
-			<columns large="7" class="mot-header__main-text newsletter__main-text" valign="middle">
-				<h1 class="newsletter__title">Pay-and-display meters ‘will be phased out by 2025’ as councils go cashless</h1>
-				<p class="newsletter__subtitle">Do you find paying with your phone more practical or just an inconvienance ?</p>
-				<button href="#" target="_blank" class="secondary radius newsletter__btn">See Results</button>
+		<row>
+			<columns large="7" class="mot-header__main-text " valign="middle">
+				<div class="newsletter__main-text">
+					<h1 class="newsletter__title">Pay-and-display meters ‘will be phased out by 2025’ as councils go cashless</h1>
+					<p class="newsletter__subtitle">Do you find paying with your phone more practical or just an inconvienance
+						?</p>
+					<button href="#" target="_blank" class="secondary radius newsletter__btn newsletter__btn--first">See Results
+					</button>
+				</div>
 			</columns>
 			<columns large="5">
 				<center>
@@ -39,18 +43,16 @@ subject: Newsletter mail
 				</center>
 			</columns>
 			<columns large="6" valign="middle">
-				<h5 class="newsletter__title-sm">Police praise impact of potholes in Essex village because ‘they help slow down
-					traffic’</h5>
-				<p class="newsletter__paragraph">Villagers were left stunned after an officer suggested potholes actually have
-					their benefits</p>
-				<row>
-					<columns small="6">
-						<button href="#" target="_blank" class="secondary radius ">Find out more</button>
-					</columns>
-					<columns small="6">
-						<button href="#" target="_blank" class="success radius ">Find out more</button>
-					</columns>
-				</row>
+				<div class="newsletter__text-r-wrap">
+					<h5 class="newsletter__title-sm">Police praise impact of potholes in Essex village because ‘they help slow
+						down traffic’</h5>
+					<p class="newsletter__paragraph">Villagers were left stunned after an officer suggested potholes actually have
+						their benefits</p>
+					<div class="newsletter__buttons-wrap">
+						<a href="#" target="_blank" class="btn secondary  ">Find out more</a>
+						<a href="#" target="_blank" class="btn success  ">Find out more</a>
+					</div>
+				</div>
 			</columns>
 		</row>
 	</container>
@@ -60,18 +62,16 @@ subject: Newsletter mail
 	<container>
 		<row>
 			<columns large="6" class="show-for-large" valign="middle">
-				<h5 class="newsletter__title-sm">Police praise impact of potholes in Essex village because ‘they help slow down
-					traffic’</h5>
-				<p class="newsletter__paragraph">Villagers were left stunned after an officer suggested potholes actually have
-					their benefits</p>
-				<row>
-					<columns small="6">
-						<button href="#" target="_blank" class="secondary radius">Find out more</button>
-					</columns>
-					<columns small="6">
-						<button href="#" target="_blank" class="success radius">Find out more</button>
-					</columns>
-				</row>
+				<div class="newsletter__text-l-wrap">
+					<h5 class="newsletter__title-sm">Police praise impact of potholes in Essex village because ‘they help slow
+						down traffic’</h5>
+					<p class="newsletter__paragraph">Villagers were left stunned after an officer suggested potholes actually have
+						their benefits</p>
+					<div class="newsletter__buttons-wrap">
+						<a href="#" target="_blank" class="btn secondary  ">Find out more</a>
+						<a href="#" target="_blank" class="btn success  ">Find out more</a>
+					</div>
+				</div>
 			</columns>
 			<columns large="6">
 				<center>
@@ -131,11 +131,13 @@ subject: Newsletter mail
 </div>
 
 <div class="white-section newsletter__image-section">
-	<container>
+	<div class="newsletter__image-full">
 		<center>
 			<img src="https://aleksandr3012.github.io/emails/dist/assets/img/article_image4.png" height="416" width="763"
 					 alt="img" loading="lazy"/>
 		</center>
+	</div>
+	<container>
 		<spacer size="26"></spacer>
 		<h4 class="text-center fw-700">BMW Issues urgent recall on 100,000 cars</h4>
 		<p class="text-center fw-600">BMW is recalling vehicles with over aggressive airbags. Don’t risk it - Check the
@@ -211,13 +213,13 @@ subject: Newsletter mail
 <div class="newsletter__bg-section">
 	<container>
 		<row>
-			<columns large="6">
+			<columns large="7">
 				<img src="https://aleksandr3012.github.io/emails/dist/assets/img/article_image7.png"
 						 height="258" width="438" alt="img" loading="lazy"/>
 			</columns>
-			<columns large="6" valign="middle">
+			<columns large="5" valign="middle">
 				<h3>Play Spin the Speedo now for the chance to win!</h3>
-				<button href="#" target="_blank" class="secondary radius newsletter__btn">Find out more</button>
+				<button href="#" target="_blank" class="secondary radius newsletter__btn">Spin Now!</button>
 			</columns>
 		</row>
 	</container>

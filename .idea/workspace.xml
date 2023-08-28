@@ -6,12 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bdb4a65f-df24-4716-86a5-f00692610ffb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/mot.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/mot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/newsletter.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/newsletter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/partner.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/partner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/welcome.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/newsletter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/newsletter.html" afterDir="false" />
     </list>
@@ -121,7 +115,7 @@
       <workItem from="1691687390731" duration="20000" />
       <workItem from="1691744026038" duration="686000" />
       <workItem from="1692712821584" duration="627000" />
-      <workItem from="1693207106559" duration="4021000" />
+      <workItem from="1693207106559" duration="4336000" />
     </task>
     <servers />
   </component>

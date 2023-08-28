@@ -1374,10 +1374,14 @@ html,
 }
 .newsletter__separator {
   height: 1px;
-  width: 100%;
   background-color: #C9C9C9;
-  margin-bottom: 20px;
-  margin-top: 28px;
+  width: 753px;
+  margin: 28px auto 20px;
+}
+@media only screen and (max-width: 789px) {
+  .newsletter__separator {
+    width: 100% !important;
+  }
 }
 .newsletter__text-l-wrap {
   max-width: 305px;

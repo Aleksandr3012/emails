@@ -1665,7 +1665,7 @@ html,
 }
 
 .yellow-line {
-  background-color: #fef200;
+  background-image: url("https://aleksandr3012.github.io/emails/dist/assets/img/yellow-bg.png");
 }
 .yellow-line .container {
   background-color: transparent !important;

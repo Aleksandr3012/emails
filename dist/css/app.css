@@ -1432,9 +1432,24 @@ html,
 .newsletter__card-section th.columns {
   padding-bottom: 0;
 }
+.newsletter__image-full a {
+  text-align: center;
+}
+.newsletter__image-full a img {
+  margin-left: auto;
+  margin-right: auto;
+}
 .newsletter__image-section {
   padding-bottom: 52px;
   padding-top: 0;
+}
+.newsletter__image-section.first {
+  padding-top: 40px;
+}
+.newsletter__image-section img {
+  width: 100%;
+  max-width: 750px;
+  height: auto;
 }
 .newsletter__image-section h4 {
   font-weight: bold;
@@ -1647,4 +1662,22 @@ html,
 .newsletter__benefits img {
   width: 35px !important;
   height: 35px !important;
+}
+
+.yellow-line {
+  background-color: #fef200;
+}
+.yellow-line .container {
+  background-color: transparent !important;
+}
+.yellow-line .container .small-6.large-6.columns {
+  padding: 10px !important;
+}
+@media only screen and (max-width: 789px) {
+  .yellow-line .container .small-6.large-6.columns {
+    padding: 10px 5px !important;
+  }
+}
+.yellow-line__right {
+  text-align: right;
 }

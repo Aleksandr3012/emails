@@ -321,17 +321,15 @@ subject: Newsletter mail
 		</p>
 	</container>
 </div>
+
 <div class="footer">
 	<spacer size="5"></spacer>
 	<center>
 		<menu>
-			<item href="https://www.regit.cars/garage/preferences">Update Your Preferences</item>
-			<item href="https://www.regit.cars/garage/preferences">Unsubscribe.</item>
-			<item
-				href="https://www.regit.cars/privacy-policy?utm_campaign=due-date-mot-7&utm_medium=email&utm_source=followup">
-				View Privacy Policy
-			</item>
-			<item href="https://www.regit.cars/">Online version</item>
+			<item href="<%${(! empty user.CustomAttribute['preferences_link']) ? user.CustomAttribute['preferences_link'] : 'https://www.regit.cars/preference-centre'}%>">Update Your Preferences</item>
+			<item href="<%${(! empty user.CustomAttribute['preferences_link']) ? user.CustomAttribute['preferences_link'] : 'https://www.regit.cars/preference-centre'}%>">Unsubscribe.</item>
+			<item href="ttps://www.regit.cars/privacy-policy">View Privacy Policy</item>
+			<item href="<%syslink_message_read url='/public/read_message.jsp'%>">Online version</item>
 		</menu>
 	</center>
 	<spacer size="5"></spacer>

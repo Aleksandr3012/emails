@@ -892,6 +892,13 @@
 			text-align: center;
 		}
 
+		a {
+			img {
+				margin-right: auto;
+				margin-left: auto;
+			}
+		}
+
 		@media only screen and (max-width: 789px) {
 			padding-bottom: 0 !important;
 			padding-top: 33px !important;
@@ -931,6 +938,10 @@
 				padding: 10px 5px !important;
 			}
 		}
+	}
+
+	&__left {
+		color: #000;
 	}
 
 	&__right {

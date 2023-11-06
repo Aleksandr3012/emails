@@ -221,10 +221,17 @@
 .info-text {
 	font-size: 12px;
 	line-height: 22px;
-}//MOT end
+}
+
+//MOT end
 
 // Partner
 .partner {
+
+	&__header {
+		padding-top: 33px;
+		padding-bottom: 46px;
+	}
 	&__title {
 		hyphens: none;
 		margin-top: 66px;
@@ -346,7 +353,9 @@
 		margin-right: auto;
 		margin-bottom: 15px;
 	}
-}// Partner end
+}
+
+// Partner end
 
 //welcome
 .welcome {
@@ -497,7 +506,9 @@
 			}
 		}
 	}
-}//welcome end
+}
+
+//welcome end
 
 //newsletter
 .newsletter {
@@ -545,6 +556,7 @@
 		@media only screen and (max-width: 789px) {
 			text-align: center;
 		}
+
 		.secondary,
 		.success {
 			border-radius: 7px;
@@ -667,6 +679,7 @@
 	&__image-full {
 		a {
 			text-align: center;
+
 			img {
 				margin-left: auto;
 				margin-right: auto;
@@ -677,6 +690,7 @@
 	&__image-section {
 		padding-bottom: 52px;
 		padding-top: 0;
+
 		&.first {
 			padding-top: 40px;
 		}
@@ -925,13 +939,17 @@
 			height: 35px !important;
 		}
 	}
-}//newsletter end
+}
+
+//newsletter end
 
 .yellow-line {
-	//background-color: #fef200;
+	background-color: #fef200;
 	background-image: url("https://aleksandr3012.github.io/emails/dist/assets/img/yellow-bg.png");
+
 	.container {
 		background-color: transparent !important;
+
 		.small-6.large-6.columns {
 			padding: 10px !important;
 			@media only screen and (max-width: 789px) {
@@ -942,9 +960,22 @@
 
 	&__left {
 		color: #000;
+		@media (prefers-color-scheme: dark) {
+			color: #000 !important;
+		}
 	}
 
 	&__right {
 		text-align: right;
 	}
+}
+
+[data-ogsc] .yellow-line {
+	&__left {
+		color: #000 !important;
+	}
+}
+
+u + .body .yellow-line__left {
+	color: green !important;
 }

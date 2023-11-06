@@ -227,11 +227,6 @@
 
 // Partner
 .partner {
-
-	&__header {
-		padding-top: 33px;
-		padding-bottom: 46px;
-	}
 	&__title {
 		hyphens: none;
 		margin-top: 66px;
@@ -356,6 +351,53 @@
 }
 
 // Partner end
+
+//white partner
+.partner-white {
+	&__logo {
+		padding-left: 49px;
+		@media only screen and (max-width: 1091px) {
+			padding-left: 0 !important;
+			text-align: center !important;
+		}
+	}
+	&__header {
+		padding-top: 33px;
+		padding-bottom: 46px;
+		background-color: white;
+	}
+	&__title {
+		font-size: 28px;
+		line-height: 1.32;
+		font-weight: 500;
+		margin-top: 53px;
+		margin-bottom: 20px;
+		font-family: $secondary-font;
+	}
+	&__paragraph {
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 1.72;
+		font-family: $secondary-font;
+		margin-bottom: 29px;
+	}
+	&__main-text {
+		max-width: 585px;
+		padding-left: 49px;
+		@media only screen and (max-width: 1091px) {
+			padding-left: 0 !important;
+		}
+	}
+	&__btn {
+		margin-bottom: 0 !important;
+		&.secondary table td a {
+			padding: 11px 40px;
+			font-weight: bold;
+			font-size: 18px;
+		}
+	}
+}
+//white partner end
 
 //welcome
 .welcome {

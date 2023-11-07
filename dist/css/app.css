@@ -1249,6 +1249,7 @@ html,
   font-weight: bold;
   font-size: 18px;
   text-align: center !important;
+  background: linear-gradient(#EF6100, #EF6100);
 }
 @media only screen and (max-width: 1091px) {
   .partner-white__btn.secondary table td a {
@@ -1318,15 +1319,6 @@ html,
   .partner-white__spin-section {
     padding-top: 45px !important;
     padding-bottom: 40px !important;
-  }
-}
-.partner-white__spin-section .welcome__spin-btn a {
-  font-size: 18px !important;
-  font-weight: bold !important;
-}
-@media only screen and (max-width: 1091px) {
-  .partner-white__spin-section .welcome__spin-btn a {
-    font-size: 16px !important;
   }
 }
 @media only screen and (max-width: 1091px) {

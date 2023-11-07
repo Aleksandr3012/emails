@@ -203,6 +203,15 @@
 			color: #1E49FF;
 		}
 	}
+
+	&--white {
+		p {
+			max-width: 749px;
+			margin-left: auto;
+			margin-right: auto;
+			font-size: 14px;
+		}
+	}
 }
 
 .white-logo {
@@ -359,6 +368,11 @@
 		@media only screen and (max-width: 1091px) {
 			padding-left: 0 !important;
 			text-align: center !important;
+
+			img {
+				margin-left: auto !important;
+				margin-right: auto !important;
+			}
 		}
 	}
 	&__header {
@@ -373,6 +387,12 @@
 		margin-top: 53px;
 		margin-bottom: 20px;
 		font-family: $secondary-font;
+
+		@media only screen and (max-width: 1091px) {
+			margin-top: 16px !important;
+			font-size: 22px !important;
+			text-align: center !important;
+		}
 	}
 	&__paragraph {
 		font-weight: bold;
@@ -380,12 +400,18 @@
 		line-height: 1.72;
 		font-family: $secondary-font;
 		margin-bottom: 29px;
+		@media only screen and (max-width: 1091px) {
+			margin-bottom: 20px !important;
+			font-size: 16px !important;
+			text-align: center !important;
+		}
 	}
 	&__main-text {
 		max-width: 585px;
 		padding-left: 49px;
 		@media only screen and (max-width: 1091px) {
 			padding-left: 0 !important;
+			max-width: 100% !important;
 		}
 	}
 	&__btn {
@@ -394,10 +420,109 @@
 			padding: 11px 40px;
 			font-weight: bold;
 			font-size: 18px;
+			text-align: center !important;
+			@media only screen and (max-width: 1091px) {
+				width: 100% !important;
+				font-size: 16px !important;
+				box-sizing: border-box;
+			}
+		}
+
+		@media only screen and (max-width: 1091px) {
+			width: 100% !important;
+			margin-bottom: 10px !important;
+			table {
+				width: 100% !important;
+			}
 		}
 	}
-}
-//white partner end
+	&__text-section {
+		padding-top: 52px;
+		padding-bottom: 40px;
+		text-align: center;
+		table.container {
+			width: 680px;
+		}
+		@media only screen and (max-width: 1091px) {
+			padding-top: 26px !important;
+		}
+		h3 {
+			text-align: center;
+			font-size: 22px;
+			line-height: 1.27;
+			font-weight: bold;
+			margin-bottom: 20px;
+			@media only screen and (max-width: 1091px) {
+				font-size: 16px !important;
+			}
+		}
+		p {
+			text-align: center;
+			font-size: 16px;
+			font-weight: 600;
+			margin-bottom: 20px;
+			max-width: 650px;
+			@media only screen and (max-width: 1091px) {
+				font-size: 14px !important;
+			}
+		}
+	}
+
+	&__image-section {
+		@media only screen and (max-width: 1091px) {
+			.container {
+				width: 100% !important;
+			}
+		}
+	}
+
+	&__spin-section {
+		border-top: 1px solid #656565;
+		border-bottom: 1px solid #656565;
+		padding-top: 52px;
+		padding-bottom: 40px;
+		@media only screen and (max-width: 1091px) {
+			padding-top: 45px !important;
+			padding-bottom: 40px !important;
+		}
+		.welcome__spin-btn a {
+			font-size: 18px !important;
+			font-weight: bold !important;
+			@media only screen and (max-width: 1091px) {
+				font-size: 16px !important;
+			}
+		}
+	}
+	&__speedo-img {
+		@media only screen and (max-width: 1091px) {
+			width: 188px !important;
+		}
+	}
+	&__spin-title {
+		font-weight: 500;
+		font-size: 28px;
+		line-height: 1.4;
+		@media only screen and (max-width: 1091px) {
+			font-size: 22px !important;
+			max-width: 384px !important;
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}
+	}
+
+	&__benefits {
+		border-bottom: 1px solid #656565 !important;
+
+		h2 {
+			font-weight: bold;
+			font-size: 22px;
+			margin-bottom: 40px;
+		}
+		p {
+			font-size: 14px !important;
+		}
+	}
+}//white partner end
 
 //welcome
 .welcome {
@@ -987,7 +1112,7 @@
 
 .yellow-line {
 	background-color: #fef200;
-	background-image: url("https://aleksandr3012.github.io/emails/dist/assets/img/yellow-bg.png");
+	//background-image: url("https://aleksandr3012.github.io/emails/dist/assets/img/yellow-bg.png");
 
 	.container {
 		background-color: transparent !important;

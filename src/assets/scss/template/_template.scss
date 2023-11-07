@@ -12,6 +12,16 @@ html,
 	background: $light-blue !important;
 }
 
+.body-white {
+	background-color: white !important;
+}
+
+table.body .partner-white__image-section .container {
+	@media only screen and (max-width: 1091px) {
+		width: 100% !important;
+	}
+}
+
 th.small-4 {
 	@media only screen and (max-width: 789px) {
 		display: inline-block !important;
@@ -183,4 +193,17 @@ table.button.google table td {
 			}
 		}
 	}
+
+	&--white {
+		border-top: 1px solid #656565;
+
+		.menu .menu-item {
+			font-size: 14px;
+			&:not(:last-child):before {
+				height: 18px;
+				width: 2px;
+			}
+		}
+	}
 }
+

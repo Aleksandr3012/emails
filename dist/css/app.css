@@ -242,25 +242,6 @@ th.large-7.last {
   width: 635.0833333333px;
 }
 
-th.large-8 {
-  width: 700.6666666667px;
-  padding-left: 8px;
-  padding-right: 8px;
-}
-
-th.large-8.first {
-  padding-left: 16px;
-}
-
-.collapse > tbody > tr > th.large-8:not([class*=large-offset]) {
-  padding-right: 0;
-  padding-left: 0;
-  width: 716.6666666667px;
-}
-.collapse > tbody > tr th.large-8.first {
-  width: 724.6666666667px;
-}
-
 th.large-9 {
   width: 790.25px;
   padding-left: 8px;
@@ -730,7 +711,7 @@ html,
 .header h1,
 .header h2,
 .header h3 {
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
 }
 
 .colored-section {
@@ -789,6 +770,12 @@ html,
     display: block !important;
     width: 100% !important;
   }
+}
+
+.separator {
+  height: 1px;
+  background-color: #8B8B8B;
+  width: 100%;
 }
 
 .footer {
@@ -867,7 +854,7 @@ html,
   line-height: 39px;
   padding: 0 5px;
   font-weight: bold;
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
   display: inline-block;
   margin-left: 10px;
   color: #050A19 !important;
@@ -1185,71 +1172,74 @@ html,
 }
 
 .partner-white__logo {
-  padding-left: 49px;
+  text-align: center;
 }
-@media only screen and (max-width: 1091px) {
-  .partner-white__logo {
-    padding-left: 0 !important;
-    text-align: center !important;
-  }
-  .partner-white__logo img {
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
+.partner-white__logo img {
+  margin-left: auto;
+  margin-right: auto;
 }
 .partner-white__header {
   padding-top: 33px;
-  padding-bottom: 46px;
+  padding-bottom: 60px;
   background-color: white;
+  text-align: center;
+}
+@media only screen and (max-width: 1091px) {
+  .partner-white__header {
+    padding-bottom: 21px !important;
+    padding-top: 26px !important;
+  }
+}
+.partner-white__header .separator {
+  margin-top: 51px;
+}
+@media only screen and (max-width: 1091px) {
+  .partner-white__header .separator {
+    display: none !important;
+  }
 }
 .partner-white__title {
   font-size: 28px;
   line-height: 1.32;
   font-weight: 500;
-  margin-top: 53px;
-  margin-bottom: 20px;
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+  text-align: center;
+  max-width: 585px;
+  margin: 42px auto 37px !important;
 }
 @media only screen and (max-width: 1091px) {
   .partner-white__title {
-    margin-top: 16px !important;
+    margin-top: 42px !important;
+    margin-bottom: 22px !important;
     font-size: 22px !important;
-    text-align: center !important;
   }
 }
 .partner-white__paragraph {
   font-weight: bold;
   font-size: 18px;
   line-height: 1.72;
-  font-family: "Roboto Slab", serif;
-  margin-bottom: 29px;
+  font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+  text-align: center;
+  max-width: 565px;
+  margin: 0 auto 46px !important;
 }
 @media only screen and (max-width: 1091px) {
   .partner-white__paragraph {
-    margin-bottom: 20px !important;
+    margin-bottom: 22px !important;
     font-size: 16px !important;
-    text-align: center !important;
-  }
-}
-.partner-white__main-text {
-  max-width: 585px;
-  padding-left: 49px;
-}
-@media only screen and (max-width: 1091px) {
-  .partner-white__main-text {
-    padding-left: 0 !important;
-    max-width: 100% !important;
   }
 }
 .partner-white__btn {
-  margin-bottom: 0 !important;
+  margin-bottom: 51px !important;
 }
 .partner-white__btn.secondary table td a {
-  padding: 11px 40px;
+  padding: 11px 116px;
+  box-sizing: border-box;
   font-weight: bold;
   font-size: 18px;
   text-align: center !important;
   background: linear-gradient(#EF6100, #EF6100);
+  white-space: nowrap;
 }
 @media only screen and (max-width: 1091px) {
   .partner-white__btn.secondary table td a {
@@ -1395,7 +1385,7 @@ html,
   width: 1000px;
 }
 .welcome__spin-title {
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
   font-weight: normal;
   margin-bottom: 20px;
   font-size: 26px;
@@ -1498,7 +1488,7 @@ html,
   line-height: 29px;
   margin-bottom: 19px;
   font-weight: normal;
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
 }
 @media only screen and (max-width: 789px) {
   .newsletter__title {

@@ -14,7 +14,13 @@
       <change beforePath="$PROJECT_DIR$/dist/partner-new.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/partner-new.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/partner.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/partner.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/_settings.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/template/_template.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/template/_template.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/default-white.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/default-white.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/index-layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index-layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/partner-new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/partner-new.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +155,12 @@
       <workItem from="1698873221316" duration="3531000" />
       <workItem from="1698931155679" duration="2160000" />
       <workItem from="1699270850345" duration="13207000" />
-      <workItem from="1699346229782" duration="10835000" />
+      <workItem from="1699346229782" duration="11584000" />
+      <workItem from="1699371972564" duration="11000" />
+      <workItem from="1699956331965" duration="730000" />
+      <workItem from="1699975510231" duration="109000" />
+      <workItem from="1699975627243" duration="203000" />
+      <workItem from="1699976123711" duration="3604000" />
     </task>
     <servers />
   </component>

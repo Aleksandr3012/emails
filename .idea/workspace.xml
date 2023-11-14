@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdb4a65f-df24-4716-86a5-f00692610ffb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/mot.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/mot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/newsletter-new.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/newsletter-new.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/newsletter.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/newsletter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/partner-new.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/partner-new.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/partner.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/partner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/welcome.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/_settings.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/template/_template.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/template/_template.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/default-white.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/default-white.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/default.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/index-layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index-layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/partner-new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/partner-new.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +146,7 @@
       <workItem from="1699956331965" duration="730000" />
       <workItem from="1699975510231" duration="109000" />
       <workItem from="1699975627243" duration="203000" />
-      <workItem from="1699976123711" duration="3604000" />
+      <workItem from="1699976123711" duration="4313000" />
     </task>
     <servers />
   </component>

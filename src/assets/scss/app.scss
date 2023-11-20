@@ -1144,6 +1144,14 @@
 
 	&__right {
 		text-align: right;
+
+		a {
+			text-align: right;
+		}
+
+		img {
+			margin-left: auto;
+		}
 	}
 }
 

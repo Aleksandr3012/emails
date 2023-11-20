@@ -1895,3 +1895,6 @@ html,
 .yellow-line__right {
   text-align: right;
 }
+.yellow-line__right a {
+  text-align: right;
+}

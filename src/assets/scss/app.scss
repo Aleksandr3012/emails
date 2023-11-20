@@ -1150,7 +1150,10 @@
 		}
 
 		img {
-			margin-left: auto;
+			margin-left: auto !important;
+			@media only screen and (max-width: 1094px) {
+				margin-left: auto !important;
+			}
 		}
 	}
 }

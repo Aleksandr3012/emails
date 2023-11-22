@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bdb4a65f-df24-4716-86a5-f00692610ffb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/newsletter-new.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/newsletter-new.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/partner-new.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/partner-new.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.babel.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +147,10 @@
       <workItem from="1699975627243" duration="203000" />
       <workItem from="1699976123711" duration="5363000" />
       <workItem from="1700145312756" duration="52000" />
-      <workItem from="1700481313620" duration="1821000" />
+      <workItem from="1700481313620" duration="3044000" />
+      <workItem from="1700510899102" duration="595000" />
+      <workItem from="1700559288401" duration="6000" />
+      <workItem from="1700660979378" duration="91000" />
     </task>
     <servers />
   </component>

@@ -794,15 +794,10 @@ html,
   margin-bottom: 10px !important;
   position: relative;
 }
-.footer .menu .menu-item:not(:last-child):before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  height: 13px;
-  width: 1px;
-  background-color: #1E49FF;
+@media only screen and (min-width: 1090px) {
+  .footer .menu .menu-item:not(:last-child) {
+    border-right: solid 2px #656565 !important;
+  }
 }
 @media only screen and (max-width: 789px) {
   .footer .menu .menu-item:before {
@@ -1178,6 +1173,11 @@ html,
   margin-left: auto;
   margin-right: auto;
 }
+@media only screen and (max-width: 1091px) {
+  .partner-white__logo img {
+    width: 120px !important;
+  }
+}
 .partner-white__header {
   padding-top: 33px;
   padding-bottom: 60px;
@@ -1187,7 +1187,7 @@ html,
 @media only screen and (max-width: 1091px) {
   .partner-white__header {
     padding-bottom: 21px !important;
-    padding-top: 26px !important;
+    padding-top: 20px !important;
   }
 }
 .partner-white__header .separator {
@@ -1198,35 +1198,48 @@ html,
     display: none !important;
   }
 }
-.partner-white__title {
+.partner-white__header .partner-white__title {
   font-size: 28px;
   line-height: 1.32;
-  font-weight: 500;
+  font-weight: bold;
   font-family: "Helvetica Neue", sans-serif, Arial, Helvetica, sans-serif;
   text-align: center;
   max-width: 585px;
-  margin: 42px auto 37px !important;
+  margin: 42px auto 37px;
 }
 @media only screen and (max-width: 1091px) {
-  .partner-white__title {
-    margin-top: 42px !important;
-    margin-bottom: 22px !important;
-    font-size: 22px !important;
+  .partner-white__header .partner-white__title {
+    margin-top: 22px !important;
+    margin-bottom: 12px !important;
+    font-size: 20px !important;
+    line-height: 1.2 !important;
   }
 }
-.partner-white__paragraph {
-  font-weight: bold;
+.partner-white__header .partner-white__paragraph {
+  font-weight: 500;
   font-size: 18px;
   line-height: 1.72;
   font-family: "Helvetica Neue", sans-serif, Arial, Helvetica, sans-serif;
   text-align: center;
   max-width: 565px;
-  margin: 0 auto 46px !important;
+  margin: 0 auto 46px;
 }
 @media only screen and (max-width: 1091px) {
-  .partner-white__paragraph {
-    margin-bottom: 22px !important;
+  .partner-white__header .partner-white__paragraph {
+    margin-bottom: 15px !important;
     font-size: 16px !important;
+    line-height: 1.25;
+  }
+}
+.partner-white__header-img {
+  display: inline-block;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (max-width: 789px) {
+  .partner-white__header-img {
+    max-width: 180px !important;
   }
 }
 .partner-white__btn {

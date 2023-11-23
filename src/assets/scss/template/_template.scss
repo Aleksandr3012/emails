@@ -180,16 +180,9 @@ table.button.google table td {
 		margin-bottom: 10px !important;
 		position: relative;
 
-		&:not(:last-child) {
-			&:before {
-				content: '';
-				position: absolute;
-				top: 0;
-				bottom: 0;
-				right: 0;
-				height: 13px;
-				width: 1px;
-				background-color: #1E49FF;
+		@media only screen and (min-width: 1090px){
+			&:not(:last-child) {
+				border-right: solid 2px #656565 !important;
 			}
 		}
 
@@ -205,6 +198,7 @@ table.button.google table td {
 
 		.menu .menu-item {
 			font-size: 14px;
+
 			&:not(:last-child):before {
 				height: 18px;
 				width: 2px;

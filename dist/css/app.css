@@ -610,7 +610,7 @@ table.menu.vertical th.menu-item a {
     min-width: 0 !important;
   }
   table.body .container {
-    width: 83% !important;
+    width: 90% !important;
   }
   table.body .columns {
     height: auto !important;
@@ -1209,9 +1209,9 @@ html,
 }
 @media only screen and (max-width: 1091px) {
   .partner-white__header .partner-white__title {
-    margin-top: 22px !important;
+    margin-top: 15px !important;
     margin-bottom: 12px !important;
-    font-size: 20px !important;
+    font-size: 19px !important;
     line-height: 1.2 !important;
   }
 }
@@ -1239,7 +1239,7 @@ html,
 }
 @media only screen and (max-width: 789px) {
   .partner-white__header-img {
-    max-width: 180px !important;
+    max-width: 170px !important;
   }
 }
 .partner-white__btn {
@@ -1275,8 +1275,10 @@ html,
   padding-bottom: 40px;
   text-align: center;
 }
-.partner-white__text-section table.container {
-  width: 680px;
+.partner-white__text-section-inner {
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media only screen and (max-width: 1091px) {
   .partner-white__text-section {

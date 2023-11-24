@@ -14,8 +14,8 @@
       <change beforePath="$PROJECT_DIR$/dist/partner-new.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/partner-new.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/partner.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/partner.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/_settings.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/template/_template.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/template/_template.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/partner-new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/partner-new.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +161,8 @@
       <workItem from="1700510899102" duration="595000" />
       <workItem from="1700559288401" duration="6000" />
       <workItem from="1700660979378" duration="984000" />
-      <workItem from="1700748540376" duration="1225000" />
+      <workItem from="1700748540376" duration="2010000" />
+      <workItem from="1700826656149" duration="602000" />
     </task>
     <servers />
   </component>

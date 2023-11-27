@@ -1908,3 +1908,11 @@ html,
 .yellow-line__right a {
   text-align: right;
 }
+.yellow-line__right img {
+  margin-left: auto !important;
+}
+@media only screen and (max-width: 1094px) {
+  .yellow-line__right img {
+    margin-left: auto !important;
+  }
+}

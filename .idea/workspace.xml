@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdb4a65f-df24-4716-86a5-f00692610ffb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/mot.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/mot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/newsletter-new.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/newsletter-new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/newsletter.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/newsletter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/partner-new.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/partner-new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/partner.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/partner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/welcome.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulpfile.babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.babel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/template/_template.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/template/_template.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/partner-new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/partner-new.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +163,10 @@
       <workItem from="1700559288401" duration="6000" />
       <workItem from="1700660979378" duration="984000" />
       <workItem from="1700748540376" duration="2010000" />
-      <workItem from="1700826656149" duration="2176000" />
+      <workItem from="1700826656149" duration="2963000" />
+      <workItem from="1701086007352" duration="1801000" />
+      <workItem from="1701089010711" duration="888000" />
+      <workItem from="1701094105991" duration="257000" />
     </task>
     <servers />
   </component>

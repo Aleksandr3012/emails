@@ -843,13 +843,13 @@ html,
 }
 .mot-header__number {
   background-color: #FFD700;
-  border-left: solid #7E8293 16px;
+  border-left: solid #050A19 16px;
   border-radius: 9px;
   font-size: 32px;
-  line-height: 39px;
+  line-height: 1.218;
   padding: 0 5px;
   font-weight: bold;
-  font-family: "Helvetica Neue", sans-serif, Arial, Helvetica, sans-serif;
+  font-family: "Trade Gothic LT Std", sans-serif, Arial, Helvetica, sans-serif;
   display: inline-block;
   margin-left: 10px;
   color: #050A19 !important;
@@ -1021,6 +1021,9 @@ html,
   margin-right: auto;
   font-size: 14px;
 }
+.above-footer--border-top {
+  border-top: 1px solid #656565;
+}
 
 .white-logo {
   text-align: center;
@@ -1039,6 +1042,156 @@ html,
 .info-text {
   font-size: 12px;
   line-height: 22px;
+}
+
+.mot-white__header {
+  padding: 69px 0 58px;
+}
+@media only screen and (max-width: 789px) {
+  .mot-white__header {
+    padding: 30px 0 !important;
+  }
+}
+.mot-white__header .container {
+  width: 770px;
+}
+.mot-white__header h1, .mot-white__header h3, .mot-white__header h4 {
+  font-family: "Helvetica Neue", sans-serif, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.mot-white__logo {
+  margin-bottom: 42px;
+  display: block;
+  text-align: center;
+}
+@media only screen and (max-width: 789px) {
+  .mot-white__logo {
+    margin-bottom: 15px !important;
+  }
+}
+.mot-white__logo img {
+  margin-left: auto;
+  margin-right: auto;
+}
+.mot-white__title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 33px;
+  line-height: 1.2;
+}
+@media only screen and (max-width: 789px) {
+  .mot-white__title {
+    font-size: 26px !important;
+    margin-bottom: 15px !important;
+  }
+}
+.mot-white__subtitle {
+  text-align: center;
+  font-family: "Helvetica Neue", sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+@media only screen and (max-width: 789px) {
+  .mot-white__subtitle {
+    font-size: 25px !important;
+    margin-bottom: 5px !important;
+  }
+}
+.mot-white__number {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.7;
+  font-weight: bold;
+}
+.mot-white__paragraph {
+  margin-top: 43px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.7;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 789px) {
+  .mot-white__paragraph {
+    margin-top: 25px !important;
+    font-size: 16px !important;
+  }
+}
+.mot-white .mot-white__btn {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (max-width: 789px) {
+  .mot-white .mot-white__btn {
+    display: block !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin-top: 25px !important;
+  }
+  .mot-white .mot-white__btn * {
+    display: block !important;
+    text-align: center !important;
+  }
+}
+.mot-white .mot-white__btn a {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: bold;
+  padding: 11px 96px;
+}
+.mot-white__img {
+  padding-right: 64px;
+  margin: 44px auto 85px;
+}
+@media only screen and (max-width: 789px) {
+  .mot-white__img {
+    padding-right: 0 !important;
+    margin-bottom: 30px !important;
+    margin-top: 30px !important;
+  }
+}
+.mot-white__text-block {
+  border-top: 1px solid #7E8293;
+  border-bottom: 1px solid #7E8293;
+  padding: 71px 0 36px;
+  text-align: center;
+}
+@media only screen and (max-width: 789px) {
+  .mot-white__text-block {
+    padding: 40px 0 30px !important;
+  }
+}
+.mot-white__text-block .container {
+  width: 410px;
+}
+.mot-white__text-block h2 {
+  text-align: center;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.mot-white__text-block p {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 29px;
+  font-size: 14px;
+}
+.mot-white__text-block .mot-white__btn a {
+  background-color: black;
+}
+@media only screen and (max-width: 789px) {
+  .mot-white__btn {
+    display: block !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin-top: 25px !important;
+  }
+  .mot-white__btn * {
+    display: block !important;
+    text-align: center !important;
+  }
 }
 
 .partner__title {
@@ -1914,5 +2067,25 @@ html,
 @media only screen and (max-width: 1094px) {
   .yellow-line__right img {
     margin-left: auto !important;
+  }
+}
+
+.placement {
+  text-align: center;
+  padding: 40px 0 0;
+}
+@media only screen and (max-width: 1094px) {
+  .placement {
+    padding: 0 !important;
+  }
+}
+.placement img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 93px;
+}
+@media only screen and (max-width: 1094px) {
+  .placement img {
+    margin-bottom: 30px;
   }
 }

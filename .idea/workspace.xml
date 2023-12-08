@@ -14,9 +14,12 @@
       <change beforePath="$PROJECT_DIR$/dist/partner-new.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/partner-new.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/partner.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/partner.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/_settings.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/newsletter-new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/newsletter-new.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/partner-new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/partner-new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/mot.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/mot.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/aleksandropryskin/Documents/smartUI/email-template/src/layouts&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/aleksandropryskin/Documents/smartUI/email-template/src/pages&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -73,8 +76,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/layouts" />
       <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src/layouts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets/img" />
@@ -165,7 +168,14 @@
       <workItem from="1700826656149" duration="2963000" />
       <workItem from="1701086007352" duration="1801000" />
       <workItem from="1701089010711" duration="888000" />
-      <workItem from="1701094105991" duration="920000" />
+      <workItem from="1701094105991" duration="1050000" />
+      <workItem from="1701344369945" duration="26000" />
+      <workItem from="1701430322088" duration="15000" />
+      <workItem from="1701783534937" duration="6796000" />
+      <workItem from="1701858977623" duration="20000" />
+      <workItem from="1701859003386" duration="3833000" />
+      <workItem from="1701883133668" duration="537000" />
+      <workItem from="1701883783510" duration="7569000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,64 @@
+---
+layout: default-white
+subject: MOT mail
+---
+
+<div class="mot-white mot-white__header ">
+		<a class="mot-white__logo" href="https://www.regit.cars/" target="_blank">
+			<img src="https://aleksandr3012.github.io/emails/dist/assets/img/logo-new.png" height="74" width="169"
+					 alt="logo"/>
+		</a>
+</div>
+<!--header end-->
+
+<div class="placement">
+	<a href="google.com" target="_blank">
+		<img src="https://aleksandr3012.github.io/emails/dist/assets/img/placement-1.jpg" alt="placement-1">
+	</a>
+	<a href="google.com" target="_blank">
+		<img src="https://aleksandr3012.github.io/emails/dist/assets/img/placement-2.jpg" alt="placement-2">
+	</a>
+	<a href="google.com" target="_blank">
+		<img src="https://aleksandr3012.github.io/emails/dist/assets/img/placement-3.jpg" alt="placement-3">
+	</a>
+</div>
+
+<div class="white-section above-footer above-footer--white above-footer--border-top">
+	<container>
+		<center>
+			<a class="white-logo" href="https://www.regit.cars/" target="_blank">
+				<img src="https://aleksandr3012.github.io/emails/dist/assets/img/logo-new.png" height="64" width="141"
+						 alt="logo"/>
+			</a>
+		</center>
+		<spacer size="20"></spacer>
+		<p class="fw-300 text-center info-text">
+			<a href="https://www.regit.cars/" target="_blank">Motoring.co.uk</a> Ltd t/a Regit, Level 3, Suite 1, Glasshouse,
+			Block 15, Alderley Park, Macclesfield, SK10 4TG.
+			<a href="https://www.regit.cars/" target="_blank">Motoring.co.uk</a> Ltd is
+			authorised and regulated by the Financial Conduct Authority (Firm Ref.711752)
+			and is a credit broker not a lender. <a href="https://www.regit.cars/" target="_blank">Motoring.co.uk</a> is
+			registered as a limited
+			company in England and Wales, Company Number: 6073777.
+		</p>
+	</container>
+</div>
+
+<div class="footer footer--white">
+	<spacer size="5"></spacer>
+	<center>
+		<menu>
+			<item
+				href="<%${(! empty user.CustomAttribute['preferences_link']) ? user.CustomAttribute['preferences_link'] : 'https://www.regit.cars/preference-centre'}%>">
+				Update Your Preferences
+			</item>
+			<item
+				href="<%${(! empty user.CustomAttribute['preferences_link']) ? user.CustomAttribute['preferences_link'] : 'https://www.regit.cars/preference-centre'}%>">
+				Unsubscribe.
+			</item>
+			<item href="ttps://www.regit.cars/privacy-policy">View Privacy Policy</item>
+			<item href="<%syslink_message_read url='/public/read_message.jsp'%>">Online version</item>
+		</menu>
+	</center>
+	<spacer size="5"></spacer>
+</div>

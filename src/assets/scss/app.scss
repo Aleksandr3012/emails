@@ -32,13 +32,13 @@
 
 	&__number {
 		background-color: $warning-color;
-		border-left: solid #7E8293 16px;
+		border-left: solid $global-font-color 16px;
 		border-radius: 9px;
 		font-size: 32px;
-		line-height: 39px;
+		line-height: 1.218;
 		padding: 0 5px;
 		font-weight: bold;
-		font-family: $secondary-font;
+		font-family: $third-font;
 		display: inline-block;
 		margin-left: 10px;
 		color: $global-font-color !important;
@@ -212,6 +212,10 @@
 			font-size: 14px;
 		}
 	}
+
+	&--border-top {
+		border-top: 1px solid #656565;
+	}
 }
 
 .white-logo {
@@ -233,6 +237,170 @@
 }
 
 //MOT end
+
+//MOT white (new) start
+.mot-white {
+	&__header {
+		padding: 69px 0 58px;
+
+		@media only screen and (max-width: 789px) {
+			padding: 30px 0 !important;
+		}
+
+		.container {
+			width: 770px;
+		}
+
+		h1, h3, h4 {
+			font-family: $secondary-font;
+			font-weight: bold;
+		}
+	}
+
+	&__logo {
+		margin-bottom: 42px;
+		display: block;
+		text-align: center;
+		@media only screen and (max-width: 789px) {
+			margin-bottom: 15px !important;
+		}
+
+		img {
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+
+	&__title {
+		text-align: center;
+		margin-bottom: 25px;
+		font-size: 33px;
+		line-height: 1.2;
+		@media only screen and (max-width: 789px) {
+			font-size: 26px !important;
+			margin-bottom: 15px !important;
+		}
+	}
+
+	&__subtitle {
+		text-align: center;
+		font-family: $secondary-font;
+		font-size: 28px;
+		font-weight: bold;
+		margin-bottom: 18px;
+		@media only screen and (max-width: 789px) {
+			font-size: 25px !important;
+			margin-bottom: 5px !important;
+		}
+	}
+
+	&__number {
+		text-align: center;
+		font-size: 18px;
+		line-height: 1.7;
+		font-weight: bold;
+	}
+
+	&__paragraph {
+		margin-top: 43px;
+		text-align: center;
+		font-size: 18px;
+		line-height: 1.7;
+		font-weight: bold;
+		margin-bottom: 30px;
+		@media only screen and (max-width: 789px) {
+			margin-top: 25px !important;
+			font-size: 16px !important;
+		}
+	}
+
+	.mot-white__btn {
+		margin-left: auto;
+		margin-right: auto;
+
+		@media only screen and (max-width: 789px) {
+			display: block !important;
+			width: 100% !important;
+			text-align: center !important;
+			margin-top: 25px !important;
+			* {
+				display: block !important;
+				text-align: center !important;
+			}
+		}
+
+		a {
+			font-size: 18px;
+			line-height: 23px;
+			font-weight: bold;
+			padding: 11px 96px;
+		}
+	}
+
+	&__img {
+		padding-right: 64px;
+		margin: 44px auto 85px;
+		@media only screen and (max-width: 789px) {
+			padding-right: 0 !important;
+			margin-bottom: 30px !important;
+			margin-top: 30px !important;
+		}
+	}
+
+	&__text-block {
+		border-top: 1px solid #7E8293;
+		border-bottom: 1px solid #7E8293;
+		padding: 71px 0 36px;
+		text-align: center;
+
+		@media only screen and (max-width: 789px) {
+			padding: 40px 0 30px !important;
+		}
+
+		.container {
+			width: 410px;
+		}
+
+		h2 {
+			text-align: center;
+			font-size: 22px;
+			line-height: 28px;
+			font-weight: bold;
+			margin-bottom: 20px;
+		}
+
+		p {
+			text-align: center;
+			font-weight: 600;
+			margin-bottom: 29px;
+			font-size: 14px;
+		}
+
+		.mot-white__btn {
+			a {
+				background-color: black;
+			}
+		}
+
+
+	}
+
+	&__btn {
+		@media only screen and (max-width: 789px) {
+			display: block !important;
+			width: 100% !important;
+			text-align: center !important;
+			margin-top: 25px !important;
+			* {
+				display: block !important;
+				text-align: center !important;
+			}
+		}
+	}
+
+
+}
+//MOT white (new) end
 
 // Partner
 .partner {
@@ -1182,4 +1350,22 @@
 
 u + .body .yellow-line__left {
 	color: green !important;
+}
+
+
+.placement {
+	text-align: center;
+	padding: 40px 0 0;
+	@media only screen and (max-width: 1094px) {
+		padding: 0 !important;
+	}
+
+	img {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 93px;
+		@media only screen and (max-width: 1094px) {
+			margin-bottom: 30px;
+		}
+	}
 }

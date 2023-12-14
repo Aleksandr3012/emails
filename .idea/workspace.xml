@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdb4a65f-df24-4716-86a5-f00692610ffb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/layouts/newsletter-white.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/newsletter-white.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/121223.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/121223.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/051223.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/051223.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/121223.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/121223.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/281123.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/281123.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/mot-new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/mot-new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/partner-new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/partner-new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/partner.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/partner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/placement.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/placement.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +32,31 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="regit_newsletters" />
+                    <option name="lastUsedInstant" value="1702552849" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1702552848" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,7 +82,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "regit__newsletters",
     "last_opened_file_path": "/Users/aleksandropryskin/Documents/smartUI/email-template/src/layouts",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -162,6 +195,7 @@
       <workItem from="1701859003386" duration="3833000" />
       <workItem from="1701883133668" duration="537000" />
       <workItem from="1701883783510" duration="14774000" />
+      <workItem from="1702549009591" duration="2253000" />
     </task>
     <servers />
   </component>

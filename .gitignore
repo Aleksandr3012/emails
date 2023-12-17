@@ -6,3 +6,5 @@ bower_components
 .awspublish*
 config.json
 .idea
+.gitconfig
+.idea/workspace.xml

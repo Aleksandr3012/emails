@@ -31,7 +31,8 @@
 	}
 
 	&__number {
-		background-color: $warning-color;
+
+		border: solid $global-font-color 2px;
 		border-left: solid $global-font-color 16px;
 		border-radius: 9px;
 		font-size: 32px;
@@ -159,7 +160,11 @@
 			h1,
 			h2,
 			h3,
-			p {
+			p,
+			.h1,
+			.h2,
+			.h3,
+			.p{
 				text-align: center !important;
 			}
 		}
@@ -251,7 +256,7 @@
 			width: 770px;
 		}
 
-		h1, h3, h4 {
+		h1, h3, h4, .h1, .h3, .h4 {
 			font-family: $secondary-font;
 			font-weight: bold;
 		}
@@ -361,7 +366,8 @@
 			width: 410px;
 		}
 
-		h2 {
+		h2,
+		.h2 {
 			text-align: center;
 			font-size: 22px;
 			line-height: 28px;
@@ -369,7 +375,7 @@
 			margin-bottom: 20px;
 		}
 
-		p {
+		p, .p {
 			text-align: center;
 			font-weight: 600;
 			margin-bottom: 29px;
@@ -641,7 +647,8 @@
 		@media only screen and (max-width: 1091px) {
 			padding-top: 26px !important;
 		}
-		h3 {
+		h3,
+		.h3 {
 			text-align: center;
 			font-size: 22px;
 			line-height: 1.27;
@@ -708,12 +715,14 @@
 	&__benefits {
 		border-bottom: 1px solid #656565 !important;
 
-		h2 {
+		h2,
+		.h2 {
 			font-weight: bold;
 			font-size: 22px;
 			margin-bottom: 40px;
 		}
-		p {
+		p,
+		.p{
 			font-size: 14px !important;
 		}
 	}
@@ -1067,14 +1076,16 @@
 			padding-bottom: 0;
 		}
 
-		h4 {
+		h4,
+		.h4 {
 			font-weight: bold;
 			font-size: 16px;
 			line-height: 20px;
 			margin-bottom: 20px;
 		}
 
-		p {
+		p,
+		.p {
 			font-size: 12px;
 			font-weight: 300;
 			line-height: 15px;
@@ -1176,7 +1187,8 @@
 			}
 		}
 
-		h5 {
+		h5,
+		.h5 {
 			@media only screen and (max-width: 789px) {
 				margin-top: 24px !important;
 			}
@@ -1244,7 +1256,8 @@
 	&__bg-section {
 		background-color: #050A19 !important;
 
-		h3 {
+		h3,
+		.h3 {
 			font-size: 22px;
 			line-height: 24px;
 			margin-bottom: 23px;
@@ -1368,4 +1381,5 @@ u + .body .yellow-line__left {
 			margin-bottom: 30px;
 		}
 	}
+
 }

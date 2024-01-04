@@ -842,7 +842,7 @@ html,
   }
 }
 .mot-header__number {
-  background-color: #FFD700;
+  border: solid #050A19 2px;
   border-left: solid #050A19 16px;
   border-radius: 9px;
   font-size: 32px;
@@ -1433,7 +1433,8 @@ html,
     padding-top: 26px !important;
   }
 }
-.partner-white__text-section h3 {
+.partner-white__text-section h3,
+.partner-white__text-section .h3 {
   text-align: center;
   font-size: 22px;
   line-height: 1.27;
@@ -1441,7 +1442,8 @@ html,
   margin-bottom: 20px;
 }
 @media only screen and (max-width: 1091px) {
-  .partner-white__text-section h3 {
+  .partner-white__text-section h3,
+  .partner-white__text-section .h3 {
     font-size: 16px !important;
   }
 }
@@ -1495,7 +1497,8 @@ html,
 .partner-white__benefits {
   border-bottom: 1px solid #656565 !important;
 }
-.partner-white__benefits h2 {
+.partner-white__benefits h2,
+.partner-white__benefits .h2 {
   font-weight: bold;
   font-size: 22px;
   margin-bottom: 40px;

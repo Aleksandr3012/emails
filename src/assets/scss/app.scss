@@ -343,7 +343,7 @@
 	}
 
 	&__img {
-		padding-right: 64px;
+		padding-right: 34px;
 		margin: 44px auto 85px;
 		@media only screen and (max-width: 789px) {
 			padding-right: 0 !important;
@@ -1378,7 +1378,7 @@ u + .body .yellow-line__left {
 		margin-right: auto;
 		margin-bottom: 93px;
 		@media only screen and (max-width: 1094px) {
-			margin-bottom: 30px;
+			margin-bottom: 30px !important;
 		}
 	}
 

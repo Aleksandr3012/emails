@@ -1147,8 +1147,8 @@ html,
 @media only screen and (max-width: 789px) {
   .mot-white__img {
     padding-right: 0 !important;
-    margin-bottom: 30px !important;
-    margin-top: 30px !important;
+    width: 60% !important;
+    margin: 30px auto !important;
   }
 }
 .mot-white__text-block {

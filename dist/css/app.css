@@ -64,7 +64,7 @@ table.body {
 }
 table.container {
   background: #fefefe;
-  width: 1075px;
+  width: 850px;
   margin: 0 auto;
   Margin: 0 auto;
   text-align: inherit;
@@ -114,7 +114,7 @@ th.columns table.button {
 }
 
 th.large-2 {
-  width: 163.1666666667px;
+  width: 125.6666666667px;
   padding-left: 8px;
   padding-right: 8px;
 }
@@ -128,7 +128,7 @@ th.large-2.last {
 }
 
 th.large-3 {
-  width: 252.75px;
+  width: 196.5px;
   padding-left: 8px;
   padding-right: 8px;
 }
@@ -140,10 +140,10 @@ th.large-3.first {
 .collapse > tbody > tr > th.large-3:not([class*=large-offset]) {
   padding-right: 0;
   padding-left: 0;
-  width: 268.75px;
+  width: 212.5px;
 }
 .collapse > tbody > tr th.large-3.first {
-  width: 276.75px;
+  width: 220.5px;
 }
 
 .body .columns th.large-3 {
@@ -151,7 +151,7 @@ th.large-3.first {
 }
 
 th.large-4 {
-  width: 342.3333333333px;
+  width: 267.3333333333px;
   padding-left: 8px;
   padding-right: 8px;
 }
@@ -167,15 +167,15 @@ th.large-4.last {
 .collapse > tbody > tr > th.large-4:not([class*=large-offset]) {
   padding-right: 0;
   padding-left: 0;
-  width: 358.3333333333px;
+  width: 283.3333333333px;
 }
 .collapse > tbody > tr th.large-4.first,
 .collapse > tbody > tr th.large-4.last {
-  width: 366.3333333333px;
+  width: 291.3333333333px;
 }
 
 th.large-5 {
-  width: 431.9166666667px;
+  width: 338.1666666667px;
   padding-left: 8px;
   padding-right: 8px;
 }
@@ -191,10 +191,10 @@ th.large-5.last {
 .collapse > tbody > tr > th.large-5:not([class*=large-offset]) {
   padding-right: 0;
   padding-left: 0;
-  width: 447.9166666667px;
+  width: 354.1666666667px;
 }
 .collapse > tbody > tr th.large-5.last {
-  width: 455.9166666667px;
+  width: 362.1666666667px;
 }
 
 .body .columns th.large-5 {
@@ -202,7 +202,7 @@ th.large-5.last {
 }
 
 th.large-6 {
-  width: 521.5px;
+  width: 409px;
   padding-left: 8px;
   padding-right: 8px;
 }
@@ -220,7 +220,7 @@ th.large-6.last {
 }
 
 th.large-7 {
-  width: 611.0833333333px;
+  width: 479.8333333333px;
   padding-left: 8px;
   padding-right: 8px;
 }
@@ -236,14 +236,14 @@ th.large-7.last {
 .collapse > tbody > tr > th.large-7:not([class*=large-offset]) {
   padding-right: 0;
   padding-left: 0;
-  width: 627.0833333333px;
+  width: 495.8333333333px;
 }
 .collapse > tbody > tr th.large-7.first {
-  width: 635.0833333333px;
+  width: 503.8333333333px;
 }
 
 th.large-9 {
-  width: 790.25px;
+  width: 621.5px;
   padding-left: 8px;
   padding-right: 8px;
 }
@@ -255,10 +255,10 @@ th.large-9.last {
 .collapse > tbody > tr > th.large-9:not([class*=large-offset]) {
   padding-right: 0;
   padding-left: 0;
-  width: 806.25px;
+  width: 637.5px;
 }
 .collapse > tbody > tr th.large-9.last {
-  width: 814.25px;
+  width: 645.5px;
 }
 
 .body .columns th.large-9 {
@@ -266,7 +266,7 @@ th.large-9.last {
 }
 
 th.large-12 {
-  width: 1059px;
+  width: 834px;
   padding-left: 8px;
   padding-right: 8px;
 }
@@ -282,11 +282,11 @@ th.large-12.last {
 .collapse > tbody > tr > th.large-12:not([class*=large-offset]) {
   padding-right: 0;
   padding-left: 0;
-  width: 1075px;
+  width: 850px;
 }
 .collapse > tbody > tr th.large-12.first,
 .collapse > tbody > tr th.large-12.last {
-  width: 1083px;
+  width: 858px;
 }
 
 th.expander {
@@ -329,7 +329,7 @@ th.columns[valign=middle] {
   width: 0;
   line-height: 0;
 }
-@media only screen and (max-width: 1091px) {
+@media only screen and (max-width: 866px) {
   .hide-for-large {
     display: block !important;
     width: auto !important;
@@ -344,14 +344,14 @@ table.body table.container .hide-for-large * {
   mso-hide: all;
 }
 
-@media only screen and (max-width: 1091px) {
+@media only screen and (max-width: 866px) {
   table.body table.container .hide-for-large {
     display: table !important;
     width: 100% !important;
   }
 }
 
-@media only screen and (max-width: 1091px) {
+@media only screen and (max-width: 866px) {
   table.body table.container .show-for-large {
     display: none !important;
     width: 0;
@@ -565,7 +565,7 @@ table.button.success:hover table a {
 }
 
 table.menu {
-  width: 1075px;
+  width: 850px;
 }
 table.menu th.menu-item {
   padding-top: 10px;
@@ -601,7 +601,7 @@ table.menu.vertical th.menu-item a {
   padding-right: 0 !important;
 }
 
-@media only screen and (max-width: 1091px) {
+@media only screen and (max-width: 866px) {
   table.body img {
     width: auto;
     height: auto;
@@ -842,7 +842,7 @@ html,
   }
 }
 .mot-header__number {
-  background-color: #FFD700;
+  border: solid #050A19 2px;
   border-left: solid #050A19 16px;
   border-radius: 9px;
   font-size: 32px;
@@ -1141,14 +1141,14 @@ html,
   padding: 11px 96px;
 }
 .mot-white__img {
-  padding-right: 64px;
+  padding-right: 34px;
   margin: 44px auto 85px;
 }
 @media only screen and (max-width: 789px) {
   .mot-white__img {
     padding-right: 0 !important;
-    margin-bottom: 30px !important;
-    margin-top: 30px !important;
+    width: 60% !important;
+    margin: 30px auto !important;
   }
 }
 .mot-white__text-block {
@@ -1433,7 +1433,8 @@ html,
     padding-top: 26px !important;
   }
 }
-.partner-white__text-section h3 {
+.partner-white__text-section h3,
+.partner-white__text-section .h3 {
   text-align: center;
   font-size: 22px;
   line-height: 1.27;
@@ -1441,7 +1442,8 @@ html,
   margin-bottom: 20px;
 }
 @media only screen and (max-width: 1091px) {
-  .partner-white__text-section h3 {
+  .partner-white__text-section h3,
+  .partner-white__text-section .h3 {
     font-size: 16px !important;
   }
 }
@@ -1495,7 +1497,8 @@ html,
 .partner-white__benefits {
   border-bottom: 1px solid #656565 !important;
 }
-.partner-white__benefits h2 {
+.partner-white__benefits h2,
+.partner-white__benefits .h2 {
   font-weight: bold;
   font-size: 22px;
   margin-bottom: 40px;
@@ -2086,6 +2089,6 @@ html,
 }
 @media only screen and (max-width: 1094px) {
   .placement img {
-    margin-bottom: 30px;
+    margin-bottom: 30px !important;
   }
 }

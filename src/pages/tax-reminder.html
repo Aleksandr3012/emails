@@ -1,0 +1,126 @@
+---
+layout: default-white
+subject: Your car tax is about to expire
+description: Make sure you tax your vehicle to stay legal
+---
+
+<div class="mot-white mot-white__header">
+	<container>
+		<a class="mot-white__logo" href="https://www.regit.cars/" target="_blank">
+			<img src="https://www.regit.cars/img/emails/logo.png" height="74" width="169"
+					 alt="logo"/>
+		</a>
+		<h1 class="mot-white__title">Hi John</h1>
+		<h4 class="mot-white__subtitle">Your Tax for</h4>
+		<p class="mot-white__subtitle"><span class="mot-header__number">LK64 ZFG</span></p>
+		<p class="mot-white__number">VOLVO XC90</p>
+		<h3 class="mot-white__title">expires in 30 days</h3>
+		<div class="separator"></div>
+		<p class="mot-white__paragraph" style="margin-bottom: 10px;">You cannot tax your vehicle if you don't have insurance in place.</p>
+		<p class="mot-white__paragraph" style="margin-top: 0;">If you do need a new policy, get a quote in just a few clicks here</p>
+		<button href="https://regitcars.quotezone.co.uk/car/index.php?id=366c1b7138662c97127f891edbfffa3a" target="_blank" class="secondary radius mot-white__btn">Get an Insurance Quote</button>
+		<img src="https://www.regit.cars/img/emails/tax.png" height="299" width="317"
+				 class="mot-white__img" style="padding-right:0" alt="Tax img" loading="lazy"/>
+		<row class="collapse mot-header__check-row">
+			<columns large="4" class="mot-header__check-col">
+				<row class="collapse">
+					<columns small="2" large="3" valign="middle">
+						<center>
+							<img src="https://www.regit.cars/img/emails/check.png" height="55" width="55"
+									 alt="check"
+									 class="mot-header__check-icon"/>
+						</center>
+					</columns>
+					<columns small="10" large="9" valign="middle">
+						<p class="mot-header__check-text">You can only tax your vehicle at <a href="https://www.gov.uk/vehicle-tax" target="_blank">Gov.UK/vehicle-tax</p>
+					</columns>
+				</row>
+			</columns>
+			<columns large="4" class="mot-header__check-col">
+				<row class="collapse">
+					<columns small="2" large="3" valign="middle">
+						<center>
+							<img src="https://www.regit.cars/img/emails/check.png" height="55" width="55"
+									 alt="check"
+									 class="mot-header__check-icon"/>
+						</center>
+					</columns>
+					<columns small="10" large="9" valign="middle">
+						<p class="mot-header__check-text mot-header__check-text--middle">You need an insurance policy to renew tax</p>
+					</columns>
+				</row>
+			</columns>
+			<columns large="4" class="mot-header__check-col">
+				<row class="collapse">
+					<columns small="2" large="3" valign="middle">
+						<center>
+							<img src="https://www.regit.cars/img/emails/check.png" height="55" width="55"
+									 alt="check"
+									 class="mot-header__check-icon"/>
+						</center>
+					</columns>
+					<columns small="10" large="9" valign="middle">
+						<p class="mot-header__check-text">Get a quote and save up to £504* on your insurance</p>
+					</columns>
+				</row>
+			</columns>
+		</row>
+	</container>
+</div>
+<!--header end-->
+
+<div class="mot-white mot-white__text-block">
+	<container>
+		<h2>Is this vehicle no longer yours?</h2>
+		<p>Update your garage and also earn a <strong>free Spin the Speedo</strong> where you can win track days, free coffees, MOT’s and more</p>
+		<button href="https://www.regit.cars/garage/settings" target="_blank" class="radius mot-white__btn">Update your Garage</button>
+	</container>
+</div>
+
+
+<div class="white-section above-footer above-footer--white">
+	<container>
+		<center>
+			<a class="white-logo" href="https://www.regit.cars/" target="_blank">
+				<img src="https://www.regit.cars/img/emails/logo.png" width="140"
+						 alt="logo"/>
+			</a>
+		</center>
+		<spacer size="20"></spacer>
+		<p class="fw-300 text-center info-text">
+			*51% of consumers could save £504.25 on their Car Insurance. The saving was calculated by comparing the cheapest
+			price found with the average of the next five cheapest prices quoted by insurance providers on Seopa Ltd’s
+			insurance comparison website. This is based on representative cost savings from September 2023 data.
+			The savings you could achieve are dependent on your individual circumstances and how you selected your current insurance supplier.
+		</p>
+		<spacer size="20"></spacer>
+		<p class="fw-300 text-center info-text">
+			<a href="https://www.regit.cars/" target="_blank">Motoring.co.uk</a> Ltd t/a Regit, Level 3, Suite 1, Glasshouse,
+			Block 15, Alderley Park, Macclesfield, SK10 4TG.
+			<a href="https://www.regit.cars/" target="_blank">Motoring.co.uk</a> Ltd is
+			authorised and regulated by the Financial Conduct Authority (Firm Ref.711752)
+			and is a credit broker not a lender. <a href="https://www.regit.cars/" target="_blank">Motoring.co.uk</a> is
+			registered as a limited
+			company in England and Wales, Company Number: 6073777
+		</p>
+	</container>
+</div>
+
+<div class="footer footer--white">
+	<spacer size="5"></spacer>
+	<center>
+		<menu>
+			<item
+				href="<%${(! empty user.CustomAttribute['preferences_link']) ? user.CustomAttribute['preferences_link'] : 'https://www.regit.cars/preference-centre'}%>">
+				Update Your Preferences
+			</item>
+			<item
+				href="<%${(! empty user.CustomAttribute['preferences_link']) ? user.CustomAttribute['preferences_link'] : 'https://www.regit.cars/preference-centre'}%>">
+				Unsubscribe
+			</item>
+			<item href="ttps://www.regit.cars/privacy-policy">View Privacy Policy</item>
+			<item href="<%syslink_message_read url='/public/read_message.jsp'%>">Online version</item>
+		</menu>
+	</center>
+	<spacer size="5"></spacer>
+</div>

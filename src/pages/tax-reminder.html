@@ -10,15 +10,15 @@ description: Make sure you tax your vehicle to stay legal
 			<img src="https://www.regit.cars/img/emails/logo.png" height="74" width="169"
 					 alt="logo"/>
 		</a>
-		<h1 class="mot-white__title">Hi John</h1>
+		<h1 class="mot-white__title">Hi John,</h1>
 		<h4 class="mot-white__subtitle">Your Tax for</h4>
-		<p class="mot-white__subtitle"><span class="mot-header__number">LK64 ZFG</span></p>
-		<p class="mot-white__number">VOLVO XC90</p>
+		<p class="mot-white__subtitle"><span class="mot-header__number"><%parameter.vehicle_vrm%></span></p>
+		<p class="mot-white__number"><%parameter.vehicle_make%> <%parameter.vehicle_model%></p>
 		<h3 class="mot-white__title">expires in 30 days</h3>
 		<div class="separator"></div>
 		<p class="mot-white__paragraph" style="margin-bottom: 10px;">You cannot tax your vehicle if you don't have insurance in place.</p>
 		<p class="mot-white__paragraph" style="margin-top: 0;">If you do need a new policy, get a quote in just a few clicks here</p>
-		<button href="https://regitcars.quotezone.co.uk/car/index.php?id=366c1b7138662c97127f891edbfffa3a" target="_blank" class="secondary radius mot-white__btn">Get an Insurance Quote</button>
+		<button href="https://regitcars.quotezone.co.uk/car/index.php?id=366c1b7138662c97127f891edbfffa3a&kw=ct1&reg=<%parameter.vehicle_vrm%>" target="_blank" class="secondary radius mot-white__btn">Get an Insurance Quote</button>
 		<img src="https://www.regit.cars/img/emails/tax.png" height="299" width="317"
 				 class="mot-white__img" style="padding-right:0" alt="Tax img" loading="lazy"/>
 		<row class="collapse mot-header__check-row">

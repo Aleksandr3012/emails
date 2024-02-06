@@ -1,27 +1,29 @@
 ---
 layout: default-white
-subject: Your car tax is about to expire
-description: Make sure you tax your vehicle to stay legal
+subject: Your car insurance is about to expire
+description: Quotezone recommends motorists sort their new policy at least three weeks before their renewal date
 ---
 
 <div class="mot-white mot-white__header">
 	<container>
 		<a class="mot-white__logo" href="https://www.regit.cars/" target="_blank">
 			<img src="https://www.regit.cars/img/emails/regit_quotezone.png" height="74" width="333"
-					 alt="regit and quotezone"/>
+					 alt="Regit and Quotezone"/>
 		</a>
 		<h1 class="mot-white__title">Hi John,</h1>
 		<h4 class="mot-white__subtitle">Your Insurance for</h4>
 		<p class="mot-white__subtitle"><span class="mot-header__number"><%parameter.vehicle_vrm%></span></p>
 		<p class="mot-white__number"><%parameter.vehicle_make%> <%parameter.vehicle_model%></p>
 		<h3 class="mot-white__title">expires in 30 days</h3>
+		<p class="mot-white__number"><a href="https://www.regit.cars/garage/<%parameter.vehicle_id%>/health" target="_blank" style="color:inherit; font-weight: inherit; text-decoration: underline;">View or update</a> your information in your Garage</p>
+		<spacer size="30"></spacer>
 		<div class="separator"></div>
 		<p class="mot-white__paragraph">Secure Your Journey – Exceptional Coverage at Unbeatable Prices</p>
 		<spacer size="10"></spacer>
-		<button href="https://regitcars.quotezone.co.uk/car/index.php?id=366c1b7138662c97127f891edbfffa3a&kw=ct1&reg=<%parameter.vehicle_vrm%>"
+		<button href="https://regitcars.quotezone.co.uk/car/index.php?id=366c1b7138662c97127f891edbfffa3a&kw=ie1&reg=<%parameter.vehicle_vrm%>"
 				target="_blank" class="secondary radius mot-white__btn">Get Insured</button>
 
-		<a href="https://regitcars.quotezone.co.uk/car/index.php?id=366c1b7138662c97127f891edbfffa3a&kw=ct1&reg=<%parameter.vehicle_vrm%>"
+		<a href="https://regitcars.quotezone.co.uk/car/index.php?id=366c1b7138662c97127f891edbfffa3a&kw=ie1&reg=<%parameter.vehicle_vrm%>"
 		   target="_blank">
 			<img src="https://www.regit.cars/img/emails/insurance.png" height="299" width="317"
 				 class="mot-white__img" style="padding-right:0" alt="Insurance img" loading="lazy"/>

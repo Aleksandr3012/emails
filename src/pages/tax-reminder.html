@@ -1,28 +1,28 @@
 ---
 layout: default-white
-subject: Your MOT is due in 30 days
-description: Details not right? Update them in just a few clicks and we'll help to keep you legal
+subject: Your car tax is about to expire
+description: Make sure you tax your vehicle to stay legal
 ---
 
 <div class="mot-white mot-white__header">
 	<container>
 		<a class="mot-white__logo" href="https://www.regit.cars/" target="_blank">
 			<img src="https://www.regit.cars/img/emails/logo.png" height="74" width="169"
-				 alt="logo"/>
+					 alt="logo"/>
 		</a>
-		<h1 class="mot-white__title">Hi John</h1>
-		<h4 class="mot-white__subtitle">Your MOT for</h4>
+		<h1 class="mot-white__title">Hi John,</h1>
+		<h4 class="mot-white__subtitle">Your Tax for</h4>
 		<p class="mot-white__subtitle"><span class="mot-header__number"><%parameter.vehicle_vrm%></span></p>
 		<p class="mot-white__number"><%parameter.vehicle_make%> <%parameter.vehicle_model%></p>
-		<h3 class="mot-white__title">expires in the next 30 days</h3>
+		<h3 class="mot-white__title">expires in 30 days</h3>
 		<p class="mot-white__number"><a href="https://www.regit.cars/garage/<%parameter.vehicle_id%>/health" target="_blank" style="color:inherit; font-weight: inherit; text-decoration: underline;">View or update</a> your information in your Garage</p>
 		<spacer size="30"></spacer>
 		<div class="separator"></div>
-		<p class="mot-white__paragraph">Book your MOT from as little as £39.99 to stay legal and keep your insurance valid</p>
-		<button href="https://regit.motoreasy.com/car/mot?product=mot&utm_medium=affiliate&utm_campaign=j1&utm_source=regit" target="_blank" class="secondary radius mot-white__btn">Book your MOT</button>
-		<a href="https://regit.motoreasy.com/car/mot?product=mot&utm_medium=affiliate&utm_campaign=j1&utm_source=regit" target="_blank">
-			<img src="https://www.regit.cars/img/emails/mot.png" height="223" width="250" class="mot-white__img" alt="MOT img" loading="lazy"/>
-		</a>
+		<p class="mot-white__paragraph" style="margin-bottom: 10px;">You cannot tax your vehicle if you don't have insurance in place.</p>
+		<p class="mot-white__paragraph" style="margin-top: 0;">If you do need a new policy, get a quote in just a few clicks here</p>
+		<button href="https://regitcars.quotezone.co.uk/car/index.php?id=366c1b7138662c97127f891edbfffa3a&kw=ct1&reg=<%parameter.vehicle_vrm%>" target="_blank" class="secondary radius mot-white__btn">Get an Insurance Quote</button>
+		<img src="https://www.regit.cars/img/emails/tax.png" height="299" width="317"
+				 class="mot-white__img" style="padding-right:0" alt="Tax img" loading="lazy"/>
 		<row class="collapse mot-header__check-row">
 			<columns large="4" class="mot-header__check-col">
 				<row class="collapse">
@@ -34,7 +34,7 @@ description: Details not right? Update them in just a few clicks and we'll help 
 						</center>
 					</columns>
 					<columns small="10" large="9" valign="middle">
-						<p class="mot-header__check-text">Book online in 60 seconds</p>
+						<p class="mot-header__check-text">You can only tax your vehicle at <a href="https://www.gov.uk/vehicle-tax" target="_blank">Gov.UK/vehicle-tax</p>
 					</columns>
 				</row>
 			</columns>
@@ -48,7 +48,7 @@ description: Details not right? Update them in just a few clicks and we'll help 
 						</center>
 					</columns>
 					<columns small="10" large="9" valign="middle">
-						<p class="mot-header__check-text mot-header__check-text--middle">Free retest if required</p>
+						<p class="mot-header__check-text mot-header__check-text--middle">You need an insurance policy to renew tax</p>
 					</columns>
 				</row>
 			</columns>
@@ -62,7 +62,7 @@ description: Details not right? Update them in just a few clicks and we'll help 
 						</center>
 					</columns>
 					<columns small="10" large="9" valign="middle">
-						<p class="mot-header__check-text">Over 10,000 trusted garages</p>
+						<p class="mot-header__check-text">Get a quote and save up to £504* on your insurance</p>
 					</columns>
 				</row>
 			</columns>
@@ -71,14 +71,6 @@ description: Details not right? Update them in just a few clicks and we'll help 
 </div>
 <!--header end-->
 
-<div class="mot-white mot-white__text-block" style="border-bottom: none;">
-	<container>
-		<h2>Do you know what your car is worth?</h2>
-		<p>Get your valuation <strong>in seconds</strong></p>
-		<button href="https://motorway.co.uk/?utm_source=regit&amp;utm_medium=affiliate&amp;utm_campaign=j1" target="_blank" class="radius mot-white__btn">Get my valuation</button>
-	</container>
-</div>
-
 <div class="mot-white mot-white__text-block">
 	<container>
 		<h2>Is this vehicle no longer yours?</h2>
@@ -86,6 +78,7 @@ description: Details not right? Update them in just a few clicks and we'll help 
 		<button href="https://www.regit.cars/garage/settings" target="_blank" class="radius mot-white__btn">Update your Garage</button>
 	</container>
 </div>
+
 
 <div class="white-section above-footer above-footer--white">
 	<container>
@@ -97,13 +90,20 @@ description: Details not right? Update them in just a few clicks and we'll help 
 		</center>
 		<spacer size="20"></spacer>
 		<p class="fw-300 text-center info-text">
+			*51% of consumers could save £504.25 on their Car Insurance. The saving was calculated by comparing the cheapest
+			price found with the average of the next five cheapest prices quoted by insurance providers on Seopa Ltd’s
+			insurance comparison website. This is based on representative cost savings from September 2023 data.
+			The savings you could achieve are dependent on your individual circumstances and how you selected your current insurance supplier.
+		</p>
+		<spacer size="20"></spacer>
+		<p class="fw-300 text-center info-text">
 			<a href="https://www.regit.cars/" target="_blank">Motoring.co.uk</a> Ltd t/a Regit, Level 3, Suite 1, Glasshouse,
 			Block 15, Alderley Park, Macclesfield, SK10 4TG.
 			<a href="https://www.regit.cars/" target="_blank">Motoring.co.uk</a> Ltd is
 			authorised and regulated by the Financial Conduct Authority (Firm Ref.711752)
 			and is a credit broker not a lender. <a href="https://www.regit.cars/" target="_blank">Motoring.co.uk</a> is
 			registered as a limited
-			company in England and Wales, Company Number: 6073777.
+			company in England and Wales, Company Number: 6073777
 		</p>
 	</container>
 </div>
